@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>braghettos/charts — Krateo Helm registry</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+           max-width: 48rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.55; }
+    h1 { margin-bottom: .25rem; }
+    .sub { opacity: .7; margin-top: 0; }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    pre { background: rgba(127,127,127,.12); padding: .9rem 1rem; border-radius: .5rem; overflow-x: auto; }
+    .ch { border: 1px solid rgba(127,127,127,.3); border-radius: .6rem; padding: 1rem 1.2rem; margin: 1rem 0; }
+    .ch h2 { margin: 0 0 .4rem; }
+    a { color: #2563eb; }
+    .foot { opacity: .6; font-size: .9rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>braghettos/charts</h1>
+  <p class="sub">Classic Helm registry for Krateo charts — two channels, one GitHub Pages site.<br />
+  OCI (<code>oci://ghcr.io/braghettos/charts/…</code>) remains the source of truth.</p>
+
+  <div class="ch">
+    <h2>blueprints</h2>
+    <p>User-installable Krateo marketplace blueprints (schema + CompositionDefinition + tile metadata).</p>
+    <pre>helm repo add braghettos-blueprints https://braghettos.github.io/charts/blueprints
+helm repo update
+helm search repo braghettos-blueprints</pre>
+    <p>Index: <a href="./blueprints/index.yaml">blueprints/index.yaml</a></p>
+  </div>
+
+  <div class="ch">
+    <h2>operators</h2>
+    <p>Operator/KOG install charts, CRD/helper/target subcharts, and plain dependency/app charts. Installable via helm; not rendered as marketplace tiles.</p>
+    <pre>helm repo add braghettos-operators https://braghettos.github.io/charts/operators
+helm repo update
+helm search repo braghettos-operators</pre>
+    <p>Index: <a href="./operators/index.yaml">operators/index.yaml</a></p>
+  </div>
+
+  <p class="foot">Chart tarballs are served from this repository's GitHub Releases.
+  See the <a href="https://github.com/braghettos/charts">repository</a> for the publishing contract.</p>
+</body>
+</html>
