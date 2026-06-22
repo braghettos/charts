@@ -1,2 +1,73 @@
 apiVersion: v1
-entries: {}
+entries:
+  hetzner-object-storage-kog:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-06-22T13:32:26.654238+02:00"
+    description: 'Krateo OASGen operator chart for Hetzner Object Storage buckets.
+      Installs a RestDefinition (consumed by krateoplatformops/oasgen-provider) that
+      generates the Bucket and BucketConfiguration CRDs and wires up the generic rest-dynamic-controller
+      against a Hetzner S3 endpoint. '
+    digest: f8ecb01fa70d28974cd98c6321e35078605b76e720cc78830597cf1e0f8fc5d9
+    home: https://github.com/krateoplatformops/oasgen-provider
+    keywords:
+    - krateo
+    - oasgen
+    - hetzner
+    - object-storage
+    - s3
+    name: hetzner-object-storage-kog
+    sources:
+    - https://github.com/krateoplatformops/oasgen-provider
+    type: application
+    urls:
+    - https://braghettos.github.io/charts/operators/hetzner-object-storage-kog-0.1.0.tgz
+    version: 0.1.0
+  krateo-core-provider-target:
+  - apiVersion: v2
+    created: "2026-06-22T13:32:26.654559+02:00"
+    description: 'Prerequisites for using a cluster as a Krateo core-provider remote
+      deployment target: the composition-version MutatingAdmissionPolicy. Install
+      into every cluster referenced by a KubernetesTarget. Requires Kubernetes >=
+      1.36. '
+    digest: 3fc58057218e7cf0dae5cad373131b8ae8b78c40d658c6adf81a7de34b77f425
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - krateo
+    - platformops
+    - core-provider
+    - target
+    name: krateo-core-provider-target
+    sources:
+    - https://github.com/braghettos/core-provider
+    type: application
+    urls:
+    - https://braghettos.github.io/charts/operators/krateo-core-provider-target-0.36.24.tgz
+    version: 0.36.24
+  nutanix-v4-proxy:
+  - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-06-22T13:32:26.655111+02:00"
+    description: 'Translating proxy that lets the Krateo rest-dynamic-controller (KOG)
+      drive the Nutanix Prism Central v4 API: OData $filter quoting, $objectType discriminator
+      injection, NTNX-Request-Id, async task resolution, ETag / parent If-Match, and
+      optional X-Cluster-Id. '
+    digest: 90ddbe30df6e863d99fbe2a5fcbe2dfd2f676308bd815dcb00c0714d049d1953
+    home: https://github.com/braghettos/krateo-nutanix-operator-kog
+    keywords:
+    - krateo
+    - nutanix
+    - prism-central
+    - oasgen-provider
+    - rest-dynamic-controller
+    maintainers:
+    - name: braghettos
+    name: nutanix-v4-proxy
+    sources:
+    - https://github.com/braghettos/krateo-nutanix-operator-kog
+    type: application
+    urls:
+    - https://braghettos.github.io/charts/operators/nutanix-v4-proxy-0.3.0.tgz
+    version: 0.3.0
+generated: "2026-06-22T13:32:26.653659+02:00"
