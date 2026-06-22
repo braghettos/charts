@@ -1,0 +1,91 @@
+name: reconcile-index
+
+# Nightly self-heal: rebuild BOTH channel indices from the authoritative set of
+# Release assets, splitting each .tgz by class (values.schema.json + CD -> blueprints,
+# else operators). Force-corrects any drift from raced/lost publisher updates.
+# Tolerant of an empty registry (no releases -> empty indices, no change).
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: charts-index-reconcile
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASES_BASE: https://github.com/braghettos/charts/releases/download
+    steps:
+      - name: Install helm
+        uses: azure/setup-helm@v4
+        with:
+          version: v3.19.0
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Rebuild both indices from the Release-asset set
+        run: |
+          set -euo pipefail
+          work="$(mktemp -d)"
+          mkdir -p "$work/blueprints" "$work/operators"
+          printf 'apiVersion: v1\nentries: {}\n' > "$work/blueprints/index.yaml"
+          printf 'apiVersion: v1\nentries: {}\n' > "$work/operators/index.yaml"
+          count=0
+          tags="$(gh release list --repo braghettos/charts --limit 100000 --json tagName --jq '.[].tagName' || true)"
+          for tag in $tags; do
+            assets="$(gh release view "$tag" --repo braghettos/charts --json assets --jq '.assets[].name' | grep '\.tgz$' || true)"
+            for a in $assets; do
+              base="${a%.tgz}"
+              dl="$(mktemp -d)"
+              gh release download "$tag" --repo braghettos/charts --pattern "$a" --dir "$dl"
+              tgz="$dl/$a"
+              if tar tzf "$tgz" | grep -q '/values\.schema\.json$' && tar tzf "$tgz" | grep -qE '/compositiondefinition\.ya?ml$'; then
+                ch=blueprints
+              else
+                ch=operators
+              fi
+              one="$(mktemp -d)"
+              cp "$tgz" "$one/"
+              helm repo index "$one" --url "${RELEASES_BASE}/${base}" --merge "$work/${ch}/index.yaml"
+              mv "$one/index.yaml" "$work/${ch}/index.yaml"
+              rm -rf "$one" "$dl"
+              count=$((count + 1))
+            done
+          done
+          echo "indexed ${count} chart artifact(s)"
+          mkdir -p gh-pages/blueprints gh-pages/operators
+          cp "$work/blueprints/index.yaml" gh-pages/blueprints/index.yaml
+          cp "$work/operators/index.yaml" gh-pages/operators/index.yaml
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          cd gh-pages
+          git add blueprints/index.yaml operators/index.yaml
+          if git diff --cached --quiet; then
+            echo "indices already in sync"
+            exit 0
+          fi
+          git -c user.name=charts-ci -c user.email=ci@braghettos.github.io commit \
+            -m "reconcile indices from Release assets"
+          git push
+
+      - name: Smoke assert (best effort; Pages may lag a fresh push)
+        run: |
+          helm repo add bp https://braghettos.github.io/charts/blueprints || true
+          helm repo add op https://braghettos.github.io/charts/operators || true
+          helm repo update || true
+          echo "blueprints entries: $(helm search repo bp -l 2>/dev/null | tail -n +2 | wc -l | tr -d ' ')"
+          echo "operators entries:  $(helm search repo op -l 2>/dev/null | tail -n +2 | wc -l | tr -d ' ')"

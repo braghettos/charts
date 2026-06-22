@@ -1,0 +1,157 @@
+name: publish-chart
+
+# Reusable publisher. A source repo calls this (workflow_call) once per channel
+# after its OCI release, passing the packaged charts as the "charts-dist" artifact.
+# It uploads the .tgz to this repo's Releases (shared blob store) and merges the
+# entry into the chosen channel's index on gh-pages.
+
+on:
+  workflow_call:
+    inputs:
+      source_repo:
+        description: "owner/repo of the calling repository (provenance + collision owner)"
+        type: string
+        required: true
+      git_tag:
+        description: "release tag of the source repo (used in release notes)"
+        type: string
+        required: true
+      channel:
+        description: "target channel: blueprints or operators"
+        type: string
+        required: true
+      artifact:
+        description: "name of the artifact holding the packaged .tgz files"
+        type: string
+        required: false
+        default: charts-dist
+    secrets:
+      PUBLISH_TOKEN:
+        description: "token with contents:write on braghettos/charts (prefer a GitHub App token)"
+        required: true
+
+concurrency:
+  group: charts-index-${{ inputs.channel }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      SRC: ${{ inputs.source_repo }}
+      CHANNEL: ${{ inputs.channel }}
+      RELEASES_BASE: https://github.com/braghettos/charts/releases/download
+    steps:
+      - name: Validate channel
+        run: |
+          case "$CHANNEL" in
+            blueprints|operators)
+              : ;;
+            *)
+              echo "::error::channel must be 'blueprints' or 'operators', got '$CHANNEL'"
+              exit 1 ;;
+          esac
+
+      - name: Install helm
+        uses: azure/setup-helm@v4
+        with:
+          version: v3.19.0
+
+      - name: Download packaged charts (same bytes as OCI)
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact }}
+          path: dist
+
+      - name: Sanity check artifact
+        run: |
+          ls -1 dist/*.tgz >/dev/null 2>&1 || {
+            echo "::error::no .tgz found in artifact '${{ inputs.artifact }}'"
+            exit 1
+          }
+
+      - name: Channel gate (blueprints must be full, renderable blueprints)
+        if: ${{ inputs.channel == 'blueprints' }}
+        run: |
+          set -euo pipefail
+          fail=0
+          for tgz in dist/*.tgz; do
+            name="$(tar -xzO -f "$tgz" '*/Chart.yaml' | yq '.name')"
+            if ! tar tzf "$tgz" | grep -q '/values\.schema\.json$'; then
+              echo "::error::$name: no values.schema.json — promote to a blueprint first, or publish to the operators channel"
+              fail=1
+            fi
+            if ! tar tzf "$tgz" | grep -qE '/compositiondefinition\.ya?ml$'; then
+              echo "::error::$name: no compositiondefinition.yaml"
+              fail=1
+            fi
+            icon="$(tar -xzO -f "$tgz" '*/Chart.yaml' | yq -r '.icon // ""')"
+            case "$icon" in
+              https://*)
+                : ;;
+              *)
+                echo "::error::$name: icon must be an absolute https URL, got '$icon'"
+                fail=1 ;;
+            esac
+          done
+          [ "$fail" = "0" ] || exit 1
+
+      - name: Upload tarballs to the shared Releases blob store
+        run: |
+          set -euo pipefail
+          for tgz in dist/*.tgz; do
+            base="$(basename "$tgz" .tgz)"
+            gh release create "$base" "$tgz" \
+              --repo braghettos/charts \
+              --title "$base" \
+              --notes "from ${SRC}@${{ inputs.git_tag }}" \
+            || gh release upload "$base" "$tgz" --repo braghettos/charts --clobber
+          done
+
+      - name: Clone gh-pages
+        run: |
+          git clone --branch gh-pages --depth 1 \
+            "https://x-access-token:${GH_TOKEN}@github.com/braghettos/charts" gh-pages
+
+      - name: Collision guard + merge index (per channel)
+        run: |
+          set -euo pipefail
+          IDX="gh-pages/${CHANNEL}/index.yaml"
+          mkdir -p "gh-pages/${CHANNEL}"
+          [ -f "$IDX" ] || printf 'apiVersion: v1\nentries: {}\n' > "$IDX"
+          for tgz in dist/*.tgz; do
+            base="$(basename "$tgz" .tgz)"
+            name="$(tar -xzO -f "$tgz" '*/Chart.yaml' | yq '.name')"
+            own="$(yq ".entries.\"${name}\"[0].annotations.\"braghettos.io/source-repo\" // \"\"" "$IDX")"
+            if [ -n "$own" ] && [ "$own" != "$SRC" ]; then
+              echo "::error::collision in ${CHANNEL}: chart '${name}' is owned by '${own}', refusing to overwrite from '${SRC}'"
+              exit 1
+            fi
+            tmp="$(mktemp -d)"
+            cp "$tgz" "$tmp/"
+            helm repo index "$tmp" --url "${RELEASES_BASE}/${base}" --merge "$IDX"
+            mv "$tmp/index.yaml" "$IDX"
+            rm -rf "$tmp"
+          done
+
+      - name: Copy icons (shared across channels)
+        run: |
+          if [ -d dist/icons ]; then
+            mkdir -p gh-pages/icons
+            cp -r dist/icons/* gh-pages/icons/ 2>/dev/null || true
+          fi
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          cd gh-pages
+          git add "${CHANNEL}/index.yaml"
+          [ -d icons ] && git add icons || true
+          if git diff --cached --quiet; then
+            echo "no index changes"
+            exit 0
+          fi
+          git -c user.name=charts-ci -c user.email=ci@braghettos.github.io commit \
+            -m "publish ${SRC}@${{ inputs.git_tag }} -> ${CHANNEL}"
+          git push
