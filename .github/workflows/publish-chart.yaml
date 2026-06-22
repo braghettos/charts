@@ -27,7 +27,7 @@ on:
         default: charts-dist
     secrets:
       PUBLISH_TOKEN:
-        description: "token with contents:write on braghettos/charts (prefer a GitHub App token)"
+        description: "classic PAT with the 'repo' scope (classic tokens have no granular contents:write); passed as CHARTS_PUBLISH_TOKEN by the caller"
         required: true
 
 concurrency:

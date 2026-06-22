@@ -54,6 +54,23 @@ Mixed repos (some blueprints, some operator/helper charts) use a matrix:
       channel: ${{ matrix.channel }}
 ```
 
+### Token setup (`CHARTS_PUBLISH_TOKEN`)
+
+The reusable publisher pushes into this repo from each source repo, so it needs a
+token with write access here. Create a **classic Personal Access Token** with the
+**`repo`** scope — classic tokens have no granular `contents:write`; `repo` is the
+scope that grants content (and Release) writes. Then add it as the secret
+`CHARTS_PUBLISH_TOKEN` on **every source repo** (this is a user account, so there are
+no org-level secrets — set it per repo):
+
+```bash
+# create the PAT in the UI: https://github.com/settings/tokens/new?scopes=repo
+PAT=ghp_xxx   # the classic repo-scope token
+for r in $(gh repo list braghettos --limit 300 --json name --jq '.[].name'); do
+  gh secret set CHARTS_PUBLISH_TOKEN --repo "braghettos/$r" --body "$PAT"
+done
+```
+
 ## Rules
 
 - **Channel routing.** A chart enters `blueprints` only if it is a full blueprint:
