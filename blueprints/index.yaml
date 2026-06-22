@@ -7,7 +7,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.055885+02:00"
+    created: "2026-06-22T13:48:49.917108+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -37,7 +37,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.056319+02:00"
+    created: "2026-06-22T13:48:49.917635+02:00"
     description: A Krateo blueprint that provisions an AWS Acm Certificate via the
       AWS Controllers for Kubernetes (ACK) acm controller. Requires the ACK acm controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -63,7 +63,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.056658+02:00"
+    created: "2026-06-22T13:48:49.91798+02:00"
     description: A Krateo blueprint that provisions an AWS Acmpca Certificate via
       the AWS Controllers for Kubernetes (ACK) acmpca controller. Requires the ACK
       acmpca controller and AWS credentials to be installed/configured beforehand
@@ -90,7 +90,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.057323+02:00"
+    created: "2026-06-22T13:48:49.91835+02:00"
     description: A Krateo blueprint that provisions an AWS Acmpca CertificateAuthority
       via the AWS Controllers for Kubernetes (ACK) acmpca controller. Requires the
       ACK acmpca controller and AWS credentials to be installed/configured beforehand
@@ -117,7 +117,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.05765+02:00"
+    created: "2026-06-22T13:48:49.9187+02:00"
     description: A Krateo blueprint that provisions an AWS Acmpca CertificateAuthorityActivation
       via the AWS Controllers for Kubernetes (ACK) acmpca controller. Requires the
       ACK acmpca controller and AWS credentials to be installed/configured beforehand
@@ -144,7 +144,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-10.5.0
-    created: "2026-06-22T13:45:43.058512+02:00"
+    created: "2026-06-22T13:48:49.919234+02:00"
     description: A Krateo composite blueprint that provisions an AWS Application/Network
       Load Balancer (LoadBalancer + TargetGroup + Listener) via the ACK elbv2 controller.
       Inputs mirror terraform-aws-modules/alb/aws. Requires the ACK elbv2 controller
@@ -175,7 +175,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.058784+02:00"
+    created: "2026-06-22T13:48:49.919466+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway APIIntegrationResponse
       via the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires
       the ACK apigateway controller and AWS credentials to be installed/configured
@@ -202,7 +202,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.059284+02:00"
+    created: "2026-06-22T13:48:49.920704+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway APIKey via the
       AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the ACK
       apigateway controller and AWS credentials to be installed/configured beforehand
@@ -229,7 +229,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.059594+02:00"
+    created: "2026-06-22T13:48:49.921023+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway APIMethodResponse
       via the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires
       the ACK apigateway controller and AWS credentials to be installed/configured
@@ -256,7 +256,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.061558+02:00"
+    created: "2026-06-22T13:48:49.921222+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Authorizer via
       the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the
       ACK apigateway controller and AWS credentials to be installed/configured beforehand
@@ -283,7 +283,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.06417+02:00"
+    created: "2026-06-22T13:48:49.921639+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Deployment via
       the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the
       ACK apigateway controller and AWS credentials to be installed/configured beforehand
@@ -310,7 +310,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.065466+02:00"
+    created: "2026-06-22T13:48:49.922193+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Integration
       via the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires
       the ACK apigateway controller and AWS credentials to be installed/configured
@@ -337,7 +337,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.06608+02:00"
+    created: "2026-06-22T13:48:49.92247+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Method via the
       AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the ACK
       apigateway controller and AWS credentials to be installed/configured beforehand
@@ -364,7 +364,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.066624+02:00"
+    created: "2026-06-22T13:48:49.922669+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Resource via
       the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the
       ACK apigateway controller and AWS credentials to be installed/configured beforehand
@@ -391,7 +391,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.067545+02:00"
+    created: "2026-06-22T13:48:49.922888+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway RestAPI via
       the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the
       ACK apigateway controller and AWS credentials to be installed/configured beforehand
@@ -418,7 +418,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.068055+02:00"
+    created: "2026-06-22T13:48:49.923129+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway Stage via the
       AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the ACK
       apigateway controller and AWS credentials to be installed/configured beforehand
@@ -445,7 +445,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.068803+02:00"
+    created: "2026-06-22T13:48:49.92338+02:00"
     description: A Krateo blueprint that provisions an AWS Apigateway VPCLink via
       the AWS Controllers for Kubernetes (ACK) apigateway controller. Requires the
       ACK apigateway controller and AWS credentials to be installed/configured beforehand
@@ -472,7 +472,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.069069+02:00"
+    created: "2026-06-22T13:48:49.923556+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 API via the
       AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires the ACK
       apigatewayv2 controller and AWS credentials to be installed/configured beforehand
@@ -499,7 +499,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.069959+02:00"
+    created: "2026-06-22T13:48:49.923864+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 APIMapping
       via the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires
       the ACK apigatewayv2 controller and AWS credentials to be installed/configured
@@ -526,7 +526,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.070934+02:00"
+    created: "2026-06-22T13:48:49.92406+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 Authorizer
       via the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires
       the ACK apigatewayv2 controller and AWS credentials to be installed/configured
@@ -553,7 +553,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.071981+02:00"
+    created: "2026-06-22T13:48:49.92428+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 Deployment
       via the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires
       the ACK apigatewayv2 controller and AWS credentials to be installed/configured
@@ -580,7 +580,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.072426+02:00"
+    created: "2026-06-22T13:48:49.925315+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 DomainName
       via the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires
       the ACK apigatewayv2 controller and AWS credentials to be installed/configured
@@ -607,7 +607,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.073197+02:00"
+    created: "2026-06-22T13:48:49.925845+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 Integration
       via the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires
       the ACK apigatewayv2 controller and AWS credentials to be installed/configured
@@ -634,7 +634,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.073444+02:00"
+    created: "2026-06-22T13:48:49.926131+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 Route via
       the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires the
       ACK apigatewayv2 controller and AWS credentials to be installed/configured beforehand
@@ -661,7 +661,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.073623+02:00"
+    created: "2026-06-22T13:48:49.926295+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 Stage via
       the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires the
       ACK apigatewayv2 controller and AWS credentials to be installed/configured beforehand
@@ -688,7 +688,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.073777+02:00"
+    created: "2026-06-22T13:48:49.926453+02:00"
     description: A Krateo blueprint that provisions an AWS Apigatewayv2 VPCLink via
       the AWS Controllers for Kubernetes (ACK) apigatewayv2 controller. Requires the
       ACK apigatewayv2 controller and AWS credentials to be installed/configured beforehand
@@ -715,7 +715,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.075172+02:00"
+    created: "2026-06-22T13:48:49.926775+02:00"
     description: A Krateo blueprint that provisions an AWS Applicationautoscaling
       ScalableTarget via the AWS Controllers for Kubernetes (ACK) applicationautoscaling
       controller. Requires the ACK applicationautoscaling controller and AWS credentials
@@ -742,7 +742,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.077151+02:00"
+    created: "2026-06-22T13:48:49.927109+02:00"
     description: A Krateo blueprint that provisions an AWS Applicationautoscaling
       ScalingPolicy via the AWS Controllers for Kubernetes (ACK) applicationautoscaling
       controller. Requires the ACK applicationautoscaling controller and AWS credentials
@@ -769,7 +769,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.077395+02:00"
+    created: "2026-06-22T13:48:49.927298+02:00"
     description: A Krateo blueprint that provisions an AWS Athena PreparedStatement
       via the AWS Controllers for Kubernetes (ACK) athena controller. Requires the
       ACK athena controller and AWS credentials to be installed/configured beforehand
@@ -796,7 +796,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.077755+02:00"
+    created: "2026-06-22T13:48:49.927475+02:00"
     description: A Krateo blueprint that provisions an AWS Athena WorkGroup via the
       AWS Controllers for Kubernetes (ACK) athena controller. Requires the ACK athena
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -823,7 +823,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.078684+02:00"
+    created: "2026-06-22T13:48:49.928005+02:00"
     description: A Krateo blueprint that provisions an AWS Autoscaling AutoScalingGroup
       via the AWS Controllers for Kubernetes (ACK) autoscaling controller. Requires
       the ACK autoscaling controller and AWS credentials to be installed/configured
@@ -850,7 +850,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-9.2.1
-    created: "2026-06-22T13:45:43.079497+02:00"
+    created: "2026-06-22T13:48:49.928762+02:00"
     description: A Krateo composite blueprint that provisions an AWS EC2 Auto Scaling
       group (launch template + auto scaling group) via the ACK ec2 and autoscaling
       controllers. Inputs mirror terraform-aws-modules/autoscaling/aws. Requires the
@@ -881,7 +881,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.079704+02:00"
+    created: "2026-06-22T13:48:49.929076+02:00"
     description: A Krateo blueprint that provisions an AWS Backup BackupPlan via the
       AWS Controllers for Kubernetes (ACK) backup controller. Requires the ACK backup
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -908,7 +908,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.080112+02:00"
+    created: "2026-06-22T13:48:49.929258+02:00"
     description: A Krateo blueprint that provisions an AWS Backup BackupSelection
       via the AWS Controllers for Kubernetes (ACK) backup controller. Requires the
       ACK backup controller and AWS credentials to be installed/configured beforehand
@@ -935,7 +935,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.080286+02:00"
+    created: "2026-06-22T13:48:49.929429+02:00"
     description: A Krateo blueprint that provisions an AWS Backup BackupVault via
       the AWS Controllers for Kubernetes (ACK) backup controller. Requires the ACK
       backup controller and AWS credentials to be installed/configured beforehand
@@ -962,7 +962,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.080496+02:00"
+    created: "2026-06-22T13:48:49.929583+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrock InferenceProfile
       via the AWS Controllers for Kubernetes (ACK) bedrock controller. Requires the
       ACK bedrock controller and AWS credentials to be installed/configured beforehand
@@ -989,7 +989,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.080698+02:00"
+    created: "2026-06-22T13:48:49.929792+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagent Agent via
       the AWS Controllers for Kubernetes (ACK) bedrockagent controller. Requires the
       ACK bedrockagent controller and AWS credentials to be installed/configured beforehand
@@ -1016,7 +1016,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.080889+02:00"
+    created: "2026-06-22T13:48:49.930348+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       AgentRuntime via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1043,7 +1043,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.081051+02:00"
+    created: "2026-06-22T13:48:49.930942+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       AgentRuntimeEndpoint via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1070,7 +1070,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.081207+02:00"
+    created: "2026-06-22T13:48:49.932166+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       APIKeyCredentialProvider via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1097,7 +1097,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.081454+02:00"
+    created: "2026-06-22T13:48:49.932519+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       CodeInterpreter via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1124,7 +1124,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.08177+02:00"
+    created: "2026-06-22T13:48:49.933154+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       Gateway via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1151,7 +1151,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.082203+02:00"
+    created: "2026-06-22T13:48:49.933658+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       GatewayTarget via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1178,7 +1178,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.082518+02:00"
+    created: "2026-06-22T13:48:49.93391+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       Memory via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1205,7 +1205,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.082781+02:00"
+    created: "2026-06-22T13:48:49.934076+02:00"
     description: A Krateo blueprint that provisions an AWS Bedrockagentcorecontrol
       WorkloadIdentity via the AWS Controllers for Kubernetes (ACK) bedrockagentcorecontrol
       controller. Requires the ACK bedrockagentcorecontrol controller and AWS credentials
@@ -1232,7 +1232,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.08295+02:00"
+    created: "2026-06-22T13:48:49.934237+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront CachePolicy
       via the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires
       the ACK cloudfront controller and AWS credentials to be installed/configured
@@ -1259,7 +1259,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.083804+02:00"
+    created: "2026-06-22T13:48:49.934922+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront Distribution
       via the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires
       the ACK cloudfront controller and AWS credentials to be installed/configured
@@ -1286,7 +1286,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.084307+02:00"
+    created: "2026-06-22T13:48:49.93539+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront Function via
       the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires the
       ACK cloudfront controller and AWS credentials to be installed/configured beforehand
@@ -1313,7 +1313,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.08456+02:00"
+    created: "2026-06-22T13:48:49.935654+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront OriginAccessControl
       via the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires
       the ACK cloudfront controller and AWS credentials to be installed/configured
@@ -1340,7 +1340,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.084825+02:00"
+    created: "2026-06-22T13:48:49.935834+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront OriginRequestPolicy
       via the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires
       the ACK cloudfront controller and AWS credentials to be installed/configured
@@ -1367,7 +1367,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.088002+02:00"
+    created: "2026-06-22T13:48:49.936154+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront ResponseHeadersPolicy
       via the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires
       the ACK cloudfront controller and AWS credentials to be installed/configured
@@ -1394,7 +1394,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.089062+02:00"
+    created: "2026-06-22T13:48:49.936371+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudfront VPCOrigin via
       the AWS Controllers for Kubernetes (ACK) cloudfront controller. Requires the
       ACK cloudfront controller and AWS credentials to be installed/configured beforehand
@@ -1421,7 +1421,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.089284+02:00"
+    created: "2026-06-22T13:48:49.936834+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudtrail EventDataStore
       via the AWS Controllers for Kubernetes (ACK) cloudtrail controller. Requires
       the ACK cloudtrail controller and AWS credentials to be installed/configured
@@ -1448,7 +1448,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.089493+02:00"
+    created: "2026-06-22T13:48:49.937338+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudtrail Trail via the
       AWS Controllers for Kubernetes (ACK) cloudtrail controller. Requires the ACK
       cloudtrail controller and AWS credentials to be installed/configured beforehand
@@ -1475,7 +1475,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.09259+02:00"
+    created: "2026-06-22T13:48:49.938174+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudwatch Dashboard via
       the AWS Controllers for Kubernetes (ACK) cloudwatch controller. Requires the
       ACK cloudwatch controller and AWS credentials to be installed/configured beforehand
@@ -1502,7 +1502,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.092966+02:00"
+    created: "2026-06-22T13:48:49.939134+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudwatch MetricAlarm
       via the AWS Controllers for Kubernetes (ACK) cloudwatch controller. Requires
       the ACK cloudwatch controller and AWS credentials to be installed/configured
@@ -1529,7 +1529,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.093213+02:00"
+    created: "2026-06-22T13:48:49.939552+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudwatch MetricStream
       via the AWS Controllers for Kubernetes (ACK) cloudwatch controller. Requires
       the ACK cloudwatch controller and AWS credentials to be installed/configured
@@ -1556,7 +1556,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.093399+02:00"
+    created: "2026-06-22T13:48:49.939975+02:00"
     description: A Krateo blueprint that provisions an AWS Cloudwatchlogs LogGroup
       via the AWS Controllers for Kubernetes (ACK) cloudwatchlogs controller. Requires
       the ACK cloudwatchlogs controller and AWS credentials to be installed/configured
@@ -1583,7 +1583,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.093576+02:00"
+    created: "2026-06-22T13:48:49.941173+02:00"
     description: A Krateo blueprint that provisions an AWS Codeartifact Domain via
       the AWS Controllers for Kubernetes (ACK) codeartifact controller. Requires the
       ACK codeartifact controller and AWS credentials to be installed/configured beforehand
@@ -1610,7 +1610,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.093989+02:00"
+    created: "2026-06-22T13:48:49.941346+02:00"
     description: A Krateo blueprint that provisions an AWS Codeartifact PackageGroup
       via the AWS Controllers for Kubernetes (ACK) codeartifact controller. Requires
       the ACK codeartifact controller and AWS credentials to be installed/configured
@@ -1637,7 +1637,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.094312+02:00"
+    created: "2026-06-22T13:48:49.94158+02:00"
     description: A Krateo blueprint that provisions an AWS Cognitoidentityprovider
       UserPool via the AWS Controllers for Kubernetes (ACK) cognitoidentityprovider
       controller. Requires the ACK cognitoidentityprovider controller and AWS credentials
@@ -1664,7 +1664,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.094493+02:00"
+    created: "2026-06-22T13:48:49.941754+02:00"
     description: A Krateo blueprint that provisions an AWS Dms Certificate via the
       AWS Controllers for Kubernetes (ACK) dms controller. Requires the ACK dms controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -1690,7 +1690,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.094713+02:00"
+    created: "2026-06-22T13:48:49.941982+02:00"
     description: A Krateo blueprint that provisions an AWS Documentdb DBCluster via
       the AWS Controllers for Kubernetes (ACK) documentdb controller. Requires the
       ACK documentdb controller and AWS credentials to be installed/configured beforehand
@@ -1717,7 +1717,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.095569+02:00"
+    created: "2026-06-22T13:48:49.942272+02:00"
     description: A Krateo blueprint that provisions an AWS Documentdb DBInstance via
       the AWS Controllers for Kubernetes (ACK) documentdb controller. Requires the
       ACK documentdb controller and AWS credentials to be installed/configured beforehand
@@ -1744,7 +1744,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.096551+02:00"
+    created: "2026-06-22T13:48:49.942772+02:00"
     description: A Krateo blueprint that provisions an AWS Documentdb DBSubnetGroup
       via the AWS Controllers for Kubernetes (ACK) documentdb controller. Requires
       the ACK documentdb controller and AWS credentials to be installed/configured
@@ -1771,7 +1771,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.096877+02:00"
+    created: "2026-06-22T13:48:49.942972+02:00"
     description: A Krateo blueprint that provisions an AWS Dsql Cluster via the AWS
       Controllers for Kubernetes (ACK) dsql controller. Requires the ACK dsql controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -1797,7 +1797,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.097286+02:00"
+    created: "2026-06-22T13:48:49.943303+02:00"
     description: A Krateo blueprint that provisions an AWS Dynamodb Backup via the
       AWS Controllers for Kubernetes (ACK) dynamodb controller. Requires the ACK dynamodb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -1824,7 +1824,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.09768+02:00"
+    created: "2026-06-22T13:48:49.943991+02:00"
     description: A Krateo blueprint that provisions an AWS Dynamodb GlobalTable via
       the AWS Controllers for Kubernetes (ACK) dynamodb controller. Requires the ACK
       dynamodb controller and AWS credentials to be installed/configured beforehand
@@ -1851,7 +1851,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.098534+02:00"
+    created: "2026-06-22T13:48:49.944465+02:00"
     description: A Krateo blueprint that provisions an AWS Dynamodb Table via the
       AWS Controllers for Kubernetes (ACK) dynamodb controller. Requires the ACK dynamodb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -1878,7 +1878,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.098724+02:00"
+    created: "2026-06-22T13:48:49.944795+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 CapacityReservation
       via the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK
       ec2 controller and AWS credentials to be installed/configured beforehand (see
@@ -1905,7 +1905,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.098873+02:00"
+    created: "2026-06-22T13:48:49.945094+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 DHCPOptions via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -1931,7 +1931,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.099427+02:00"
+    created: "2026-06-22T13:48:49.945395+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 EgressOnlyInternetGateway
       via the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK
       ec2 controller and AWS credentials to be installed/configured beforehand (see
@@ -1958,7 +1958,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.09987+02:00"
+    created: "2026-06-22T13:48:49.9456+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 ElasticIPAddress via
       the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -1985,7 +1985,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.100201+02:00"
+    created: "2026-06-22T13:48:49.945778+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 FlowLog via the AWS
       Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2011,7 +2011,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.101178+02:00"
+    created: "2026-06-22T13:48:49.94604+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 Instance via the AWS
       Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2037,7 +2037,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.102184+02:00"
+    created: "2026-06-22T13:48:49.946328+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 InternetGateway via
       the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2064,7 +2064,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.103668+02:00"
+    created: "2026-06-22T13:48:49.946874+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 LaunchTemplate via
       the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2091,7 +2091,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.104666+02:00"
+    created: "2026-06-22T13:48:49.947042+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 ManagedPrefixList via
       the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2118,7 +2118,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.105058+02:00"
+    created: "2026-06-22T13:48:49.948032+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 NATGateway via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2144,7 +2144,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.105336+02:00"
+    created: "2026-06-22T13:48:49.948246+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 NetworkACL via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2170,7 +2170,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.105635+02:00"
+    created: "2026-06-22T13:48:49.948429+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 RouteTable via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2196,7 +2196,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.105832+02:00"
+    created: "2026-06-22T13:48:49.948605+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 SecurityGroup via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2222,7 +2222,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.105999+02:00"
+    created: "2026-06-22T13:48:49.948792+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 Subnet via the AWS
       Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2248,7 +2248,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.106153+02:00"
+    created: "2026-06-22T13:48:49.948953+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 TransitGateway via
       the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2275,7 +2275,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.106313+02:00"
+    created: "2026-06-22T13:48:49.94912+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 TransitGatewayVPCAttachment
       via the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK
       ec2 controller and AWS credentials to be installed/configured beforehand (see
@@ -2302,7 +2302,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.106483+02:00"
+    created: "2026-06-22T13:48:49.949464+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 VPC via the AWS Controllers
       for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -2328,7 +2328,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.10665+02:00"
+    created: "2026-06-22T13:48:49.949626+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 VPCEndpoint via the
       AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK ec2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2354,7 +2354,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.106819+02:00"
+    created: "2026-06-22T13:48:49.949784+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 VPCEndpointServiceConfiguration
       via the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK
       ec2 controller and AWS credentials to be installed/configured beforehand (see
@@ -2381,7 +2381,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.106984+02:00"
+    created: "2026-06-22T13:48:49.949949+02:00"
     description: A Krateo blueprint that provisions an AWS Ec2 VPCPeeringConnection
       via the AWS Controllers for Kubernetes (ACK) ec2 controller. Requires the ACK
       ec2 controller and AWS credentials to be installed/configured beforehand (see
@@ -2408,7 +2408,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.107255+02:00"
+    created: "2026-06-22T13:48:49.950116+02:00"
     description: A Krateo blueprint that provisions an AWS Ecr PullThroughCacheRule
       via the AWS Controllers for Kubernetes (ACK) ecr controller. Requires the ACK
       ecr controller and AWS credentials to be installed/configured beforehand (see
@@ -2435,7 +2435,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.107563+02:00"
+    created: "2026-06-22T13:48:49.950433+02:00"
     description: A Krateo blueprint that provisions an AWS Ecr Repository via the
       AWS Controllers for Kubernetes (ACK) ecr controller. Requires the ACK ecr controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2461,7 +2461,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.107751+02:00"
+    created: "2026-06-22T13:48:49.950637+02:00"
     description: A Krateo blueprint that provisions an AWS Ecr RepositoryCreationTemplate
       via the AWS Controllers for Kubernetes (ACK) ecr controller. Requires the ACK
       ecr controller and AWS credentials to be installed/configured beforehand (see
@@ -2488,7 +2488,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.107898+02:00"
+    created: "2026-06-22T13:48:49.950805+02:00"
     description: A Krateo blueprint that provisions an AWS Ecrpublic Repository via
       the AWS Controllers for Kubernetes (ACK) ecrpublic controller. Requires the
       ACK ecrpublic controller and AWS credentials to be installed/configured beforehand
@@ -2515,7 +2515,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.108194+02:00"
+    created: "2026-06-22T13:48:49.951152+02:00"
     description: A Krateo blueprint that provisions an AWS Ecs Cluster via the AWS
       Controllers for Kubernetes (ACK) ecs controller. Requires the ACK ecs controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2541,7 +2541,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.10858+02:00"
+    created: "2026-06-22T13:48:49.951833+02:00"
     description: A Krateo blueprint that provisions an AWS Ecs Service via the AWS
       Controllers for Kubernetes (ACK) ecs controller. Requires the ACK ecs controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2567,7 +2567,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-7.5.0
-    created: "2026-06-22T13:45:43.108827+02:00"
+    created: "2026-06-22T13:48:49.952244+02:00"
     description: A Krateo composite blueprint that provisions an AWS ECS cluster,
       task definition and service via the ACK ecs controller. Inputs mirror terraform-aws-modules/ecs/aws.
       Requires the ACK ecs controller and AWS credentials (see repo docs).
@@ -2596,7 +2596,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.109334+02:00"
+    created: "2026-06-22T13:48:49.952731+02:00"
     description: A Krateo blueprint that provisions an AWS Ecs TaskDefinition via
       the AWS Controllers for Kubernetes (ACK) ecs controller. Requires the ACK ecs
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2623,7 +2623,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.109508+02:00"
+    created: "2026-06-22T13:48:49.953047+02:00"
     description: A Krateo blueprint that provisions an AWS Efs AccessPoint via the
       AWS Controllers for Kubernetes (ACK) efs controller. Requires the ACK efs controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2649,7 +2649,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.10982+02:00"
+    created: "2026-06-22T13:48:49.953743+02:00"
     description: A Krateo blueprint that provisions an AWS Efs FileSystem via the
       AWS Controllers for Kubernetes (ACK) efs controller. Requires the ACK efs controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2675,7 +2675,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.110563+02:00"
+    created: "2026-06-22T13:48:49.95437+02:00"
     description: A Krateo blueprint that provisions an AWS Efs MountTarget via the
       AWS Controllers for Kubernetes (ACK) efs controller. Requires the ACK efs controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2701,7 +2701,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.110967+02:00"
+    created: "2026-06-22T13:48:49.954892+02:00"
     description: A Krateo blueprint that provisions an AWS Eks AccessEntry via the
       AWS Controllers for Kubernetes (ACK) eks controller. Requires the ACK eks controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2727,7 +2727,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.111342+02:00"
+    created: "2026-06-22T13:48:49.955606+02:00"
     description: A Krateo blueprint that provisions an AWS Eks Addon via the AWS Controllers
       for Kubernetes (ACK) eks controller. Requires the ACK eks controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -2753,7 +2753,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.11572+02:00"
+    created: "2026-06-22T13:48:49.955925+02:00"
     description: A Krateo blueprint that provisions an AWS Eks Capability via the
       AWS Controllers for Kubernetes (ACK) eks controller. Requires the ACK eks controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2779,7 +2779,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.116066+02:00"
+    created: "2026-06-22T13:48:49.956247+02:00"
     description: A Krateo blueprint that provisions an AWS Eks Cluster via the AWS
       Controllers for Kubernetes (ACK) eks controller. Requires the ACK eks controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2805,7 +2805,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.116233+02:00"
+    created: "2026-06-22T13:48:49.956432+02:00"
     description: A Krateo blueprint that provisions an AWS Eks FargateProfile via
       the AWS Controllers for Kubernetes (ACK) eks controller. Requires the ACK eks
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -2832,7 +2832,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.116392+02:00"
+    created: "2026-06-22T13:48:49.956662+02:00"
     description: A Krateo blueprint that provisions an AWS Eks IdentityProviderConfig
       via the AWS Controllers for Kubernetes (ACK) eks controller. Requires the ACK
       eks controller and AWS credentials to be installed/configured beforehand (see
@@ -2859,7 +2859,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.116688+02:00"
+    created: "2026-06-22T13:48:49.957059+02:00"
     description: A Krateo blueprint that provisions an AWS Eks Nodegroup via the AWS
       Controllers for Kubernetes (ACK) eks controller. Requires the ACK eks controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -2885,7 +2885,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.116967+02:00"
+    created: "2026-06-22T13:48:49.957426+02:00"
     description: A Krateo blueprint that provisions an AWS Eks PodIdentityAssociation
       via the AWS Controllers for Kubernetes (ACK) eks controller. Requires the ACK
       eks controller and AWS credentials to be installed/configured beforehand (see
@@ -2912,7 +2912,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-21.23.0
-    created: "2026-06-22T13:45:43.117562+02:00"
+    created: "2026-06-22T13:48:49.957768+02:00"
     description: A Krateo composite blueprint that provisions an AWS EKS cluster and
       one managed node group via the ACK eks controller. Inputs mirror terraform-aws-modules/eks/aws.
       Requires the ACK eks controller, pre-existing VPC subnets and IAM role ARNs,
@@ -2941,7 +2941,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.117956+02:00"
+    created: "2026-06-22T13:48:49.958085+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache CacheCluster
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -2968,7 +2968,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.118277+02:00"
+    created: "2026-06-22T13:48:49.958386+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache CacheParameterGroup
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -2995,7 +2995,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.118483+02:00"
+    created: "2026-06-22T13:48:49.958676+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache CacheSubnetGroup
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -3022,7 +3022,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.118823+02:00"
+    created: "2026-06-22T13:48:49.959028+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache ReplicationGroup
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -3049,7 +3049,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.119167+02:00"
+    created: "2026-06-22T13:48:49.959337+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache ServerlessCache
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -3076,7 +3076,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.119782+02:00"
+    created: "2026-06-22T13:48:49.959856+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache ServerlessCacheSnapshot
       via the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires
       the ACK elasticache controller and AWS credentials to be installed/configured
@@ -3103,7 +3103,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.120411+02:00"
+    created: "2026-06-22T13:48:49.960483+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache Snapshot via
       the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires the
       ACK elasticache controller and AWS credentials to be installed/configured beforehand
@@ -3130,7 +3130,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.121334+02:00"
+    created: "2026-06-22T13:48:49.960891+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache User via the
       AWS Controllers for Kubernetes (ACK) elasticache controller. Requires the ACK
       elasticache controller and AWS credentials to be installed/configured beforehand
@@ -3157,7 +3157,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.121842+02:00"
+    created: "2026-06-22T13:48:49.961269+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticache UserGroup via
       the AWS Controllers for Kubernetes (ACK) elasticache controller. Requires the
       ACK elasticache controller and AWS credentials to be installed/configured beforehand
@@ -3184,7 +3184,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.122194+02:00"
+    created: "2026-06-22T13:48:49.961928+02:00"
     description: A Krateo blueprint that provisions an AWS Elasticsearchservice ElasticsearchDomain
       via the AWS Controllers for Kubernetes (ACK) elasticsearchservice controller.
       Requires the ACK elasticsearchservice controller and AWS credentials to be installed/configured
@@ -3211,7 +3211,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.122488+02:00"
+    created: "2026-06-22T13:48:49.96237+02:00"
     description: A Krateo blueprint that provisions an AWS Elbv2 Listener via the
       AWS Controllers for Kubernetes (ACK) elbv2 controller. Requires the ACK elbv2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -3238,7 +3238,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.1227+02:00"
+    created: "2026-06-22T13:48:49.962903+02:00"
     description: A Krateo blueprint that provisions an AWS Elbv2 LoadBalancer via
       the AWS Controllers for Kubernetes (ACK) elbv2 controller. Requires the ACK
       elbv2 controller and AWS credentials to be installed/configured beforehand (see
@@ -3265,7 +3265,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.122998+02:00"
+    created: "2026-06-22T13:48:49.963181+02:00"
     description: A Krateo blueprint that provisions an AWS Elbv2 Rule via the AWS
       Controllers for Kubernetes (ACK) elbv2 controller. Requires the ACK elbv2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -3291,7 +3291,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.123766+02:00"
+    created: "2026-06-22T13:48:49.963446+02:00"
     description: A Krateo blueprint that provisions an AWS Elbv2 TargetGroup via the
       AWS Controllers for Kubernetes (ACK) elbv2 controller. Requires the ACK elbv2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -3318,7 +3318,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.124647+02:00"
+    created: "2026-06-22T13:48:49.963773+02:00"
     description: A Krateo blueprint that provisions an AWS Emrcontainers JobRun via
       the AWS Controllers for Kubernetes (ACK) emrcontainers controller. Requires
       the ACK emrcontainers controller and AWS credentials to be installed/configured
@@ -3345,7 +3345,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.125844+02:00"
+    created: "2026-06-22T13:48:49.964855+02:00"
     description: A Krateo blueprint that provisions an AWS Emrcontainers VirtualCluster
       via the AWS Controllers for Kubernetes (ACK) emrcontainers controller. Requires
       the ACK emrcontainers controller and AWS credentials to be installed/configured
@@ -3372,7 +3372,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.127355+02:00"
+    created: "2026-06-22T13:48:49.965071+02:00"
     description: A Krateo blueprint that provisions an AWS Emrserverless Application
       via the AWS Controllers for Kubernetes (ACK) emrserverless controller. Requires
       the ACK emrserverless controller and AWS credentials to be installed/configured
@@ -3399,7 +3399,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.128111+02:00"
+    created: "2026-06-22T13:48:49.965446+02:00"
     description: A Krateo blueprint that provisions an AWS Eventbridge Archive via
       the AWS Controllers for Kubernetes (ACK) eventbridge controller. Requires the
       ACK eventbridge controller and AWS credentials to be installed/configured beforehand
@@ -3426,7 +3426,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.128915+02:00"
+    created: "2026-06-22T13:48:49.965834+02:00"
     description: A Krateo blueprint that provisions an AWS Eventbridge Endpoint via
       the AWS Controllers for Kubernetes (ACK) eventbridge controller. Requires the
       ACK eventbridge controller and AWS credentials to be installed/configured beforehand
@@ -3453,7 +3453,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.129583+02:00"
+    created: "2026-06-22T13:48:49.96601+02:00"
     description: A Krateo blueprint that provisions an AWS Eventbridge EventBus via
       the AWS Controllers for Kubernetes (ACK) eventbridge controller. Requires the
       ACK eventbridge controller and AWS credentials to be installed/configured beforehand
@@ -3480,7 +3480,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.130039+02:00"
+    created: "2026-06-22T13:48:49.966603+02:00"
     description: A Krateo blueprint that provisions an AWS Eventbridge Rule via the
       AWS Controllers for Kubernetes (ACK) eventbridge controller. Requires the ACK
       eventbridge controller and AWS credentials to be installed/configured beforehand
@@ -3507,7 +3507,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.131334+02:00"
+    created: "2026-06-22T13:48:49.966996+02:00"
     description: A Krateo blueprint that provisions an AWS Firehose DeliveryStream
       via the AWS Controllers for Kubernetes (ACK) firehose controller. Requires the
       ACK firehose controller and AWS credentials to be installed/configured beforehand
@@ -3534,7 +3534,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.131891+02:00"
+    created: "2026-06-22T13:48:49.967428+02:00"
     description: A Krateo blueprint that provisions an AWS Glue Job via the AWS Controllers
       for Kubernetes (ACK) glue controller. Requires the ACK glue controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3560,7 +3560,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.132236+02:00"
+    created: "2026-06-22T13:48:49.967598+02:00"
     description: A Krateo blueprint that provisions an AWS Iam Group via the AWS Controllers
       for Kubernetes (ACK) iam controller. Requires the ACK iam controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3586,7 +3586,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.132874+02:00"
+    created: "2026-06-22T13:48:49.967908+02:00"
     description: A Krateo blueprint that provisions an AWS Iam InstanceProfile via
       the AWS Controllers for Kubernetes (ACK) iam controller. Requires the ACK iam
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -3613,7 +3613,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.133263+02:00"
+    created: "2026-06-22T13:48:49.968229+02:00"
     description: A Krateo blueprint that provisions an AWS Iam OpenIDConnectProvider
       via the AWS Controllers for Kubernetes (ACK) iam controller. Requires the ACK
       iam controller and AWS credentials to be installed/configured beforehand (see
@@ -3640,7 +3640,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.133626+02:00"
+    created: "2026-06-22T13:48:49.96842+02:00"
     description: A Krateo blueprint that provisions an AWS Iam Policy via the AWS
       Controllers for Kubernetes (ACK) iam controller. Requires the ACK iam controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -3666,7 +3666,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.133995+02:00"
+    created: "2026-06-22T13:48:49.968599+02:00"
     description: A Krateo blueprint that provisions an AWS Iam Role via the AWS Controllers
       for Kubernetes (ACK) iam controller. Requires the ACK iam controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3692,7 +3692,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.13422+02:00"
+    created: "2026-06-22T13:48:49.968776+02:00"
     description: A Krateo blueprint that provisions an AWS Iam ServiceLinkedRole via
       the AWS Controllers for Kubernetes (ACK) iam controller. Requires the ACK iam
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -3719,7 +3719,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-6.6.1
-    created: "2026-06-22T13:45:43.134549+02:00"
+    created: "2026-06-22T13:48:49.969173+02:00"
     description: A Krateo composite blueprint that provisions an AWS IAM role (with
       an optional inline policy and attached managed policies) via the ACK iam controller.
       Inputs mirror terraform-aws-modules/iam/aws. Requires the ACK iam controller
@@ -3749,7 +3749,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.135036+02:00"
+    created: "2026-06-22T13:48:49.969354+02:00"
     description: A Krateo blueprint that provisions an AWS Iam User via the AWS Controllers
       for Kubernetes (ACK) iam controller. Requires the ACK iam controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3775,7 +3775,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.135512+02:00"
+    created: "2026-06-22T13:48:49.969574+02:00"
     description: A Krateo blueprint that provisions an AWS Kafka Cluster via the AWS
       Controllers for Kubernetes (ACK) kafka controller. Requires the ACK kafka controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -3801,7 +3801,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.136089+02:00"
+    created: "2026-06-22T13:48:49.969742+02:00"
     description: A Krateo blueprint that provisions an AWS Kafka Configuration via
       the AWS Controllers for Kubernetes (ACK) kafka controller. Requires the ACK
       kafka controller and AWS credentials to be installed/configured beforehand (see
@@ -3828,7 +3828,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.137287+02:00"
+    created: "2026-06-22T13:48:49.969932+02:00"
     description: A Krateo blueprint that provisions an AWS Kafka ServerlessCluster
       via the AWS Controllers for Kubernetes (ACK) kafka controller. Requires the
       ACK kafka controller and AWS credentials to be installed/configured beforehand
@@ -3855,7 +3855,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.13812+02:00"
+    created: "2026-06-22T13:48:49.970202+02:00"
     description: A Krateo blueprint that provisions an AWS Keyspaces Keyspace via
       the AWS Controllers for Kubernetes (ACK) keyspaces controller. Requires the
       ACK keyspaces controller and AWS credentials to be installed/configured beforehand
@@ -3882,7 +3882,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.138887+02:00"
+    created: "2026-06-22T13:48:49.970541+02:00"
     description: A Krateo blueprint that provisions an AWS Keyspaces Table via the
       AWS Controllers for Kubernetes (ACK) keyspaces controller. Requires the ACK
       keyspaces controller and AWS credentials to be installed/configured beforehand
@@ -3909,7 +3909,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.139445+02:00"
+    created: "2026-06-22T13:48:49.970719+02:00"
     description: A Krateo blueprint that provisions an AWS Kinesis Stream via the
       AWS Controllers for Kubernetes (ACK) kinesis controller. Requires the ACK kinesis
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -3936,7 +3936,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.140071+02:00"
+    created: "2026-06-22T13:48:49.970886+02:00"
     description: A Krateo blueprint that provisions an AWS Kms Alias via the AWS Controllers
       for Kubernetes (ACK) kms controller. Requires the ACK kms controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3962,7 +3962,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.143024+02:00"
+    created: "2026-06-22T13:48:49.971655+02:00"
     description: A Krateo blueprint that provisions an AWS Kms Grant via the AWS Controllers
       for Kubernetes (ACK) kms controller. Requires the ACK kms controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -3988,7 +3988,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.147166+02:00"
+    created: "2026-06-22T13:48:49.971867+02:00"
     description: A Krateo blueprint that provisions an AWS Kms Key via the AWS Controllers
       for Kubernetes (ACK) kms controller. Requires the ACK kms controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -4014,7 +4014,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.147659+02:00"
+    created: "2026-06-22T13:48:49.972109+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda Alias via the AWS
       Controllers for Kubernetes (ACK) lambda controller. Requires the ACK lambda
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4041,7 +4041,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.147911+02:00"
+    created: "2026-06-22T13:48:49.972654+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda CodeSigningConfig
       via the AWS Controllers for Kubernetes (ACK) lambda controller. Requires the
       ACK lambda controller and AWS credentials to be installed/configured beforehand
@@ -4068,7 +4068,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.148124+02:00"
+    created: "2026-06-22T13:48:49.973284+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda EventSourceMapping
       via the AWS Controllers for Kubernetes (ACK) lambda controller. Requires the
       ACK lambda controller and AWS credentials to be installed/configured beforehand
@@ -4095,7 +4095,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.148336+02:00"
+    created: "2026-06-22T13:48:49.973547+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda Function via the
       AWS Controllers for Kubernetes (ACK) lambda controller. Requires the ACK lambda
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4122,7 +4122,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.148596+02:00"
+    created: "2026-06-22T13:48:49.973717+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda FunctionURLConfig
       via the AWS Controllers for Kubernetes (ACK) lambda controller. Requires the
       ACK lambda controller and AWS credentials to be installed/configured beforehand
@@ -4149,7 +4149,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.14882+02:00"
+    created: "2026-06-22T13:48:49.973908+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda LayerVersion via
       the AWS Controllers for Kubernetes (ACK) lambda controller. Requires the ACK
       lambda controller and AWS credentials to be installed/configured beforehand
@@ -4176,7 +4176,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.149063+02:00"
+    created: "2026-06-22T13:48:49.974134+02:00"
     description: A Krateo blueprint that provisions an AWS Lambda Version via the
       AWS Controllers for Kubernetes (ACK) lambda controller. Requires the ACK lambda
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4203,7 +4203,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.149275+02:00"
+    created: "2026-06-22T13:48:49.974335+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb ACL via the AWS
       Controllers for Kubernetes (ACK) memorydb controller. Requires the ACK memorydb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4230,7 +4230,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.149542+02:00"
+    created: "2026-06-22T13:48:49.974811+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb Cluster via the
       AWS Controllers for Kubernetes (ACK) memorydb controller. Requires the ACK memorydb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4257,7 +4257,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.149748+02:00"
+    created: "2026-06-22T13:48:49.974971+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb ParameterGroup
       via the AWS Controllers for Kubernetes (ACK) memorydb controller. Requires the
       ACK memorydb controller and AWS credentials to be installed/configured beforehand
@@ -4284,7 +4284,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.149995+02:00"
+    created: "2026-06-22T13:48:49.975233+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb Snapshot via the
       AWS Controllers for Kubernetes (ACK) memorydb controller. Requires the ACK memorydb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4311,7 +4311,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.150212+02:00"
+    created: "2026-06-22T13:48:49.975492+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb SubnetGroup via
       the AWS Controllers for Kubernetes (ACK) memorydb controller. Requires the ACK
       memorydb controller and AWS credentials to be installed/configured beforehand
@@ -4338,7 +4338,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.150421+02:00"
+    created: "2026-06-22T13:48:49.976359+02:00"
     description: A Krateo blueprint that provisions an AWS Memorydb User via the AWS
       Controllers for Kubernetes (ACK) memorydb controller. Requires the ACK memorydb
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4365,7 +4365,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.15091+02:00"
+    created: "2026-06-22T13:48:49.976555+02:00"
     description: A Krateo blueprint that provisions an AWS Mq Broker via the AWS Controllers
       for Kubernetes (ACK) mq controller. Requires the ACK mq controller and AWS credentials
       to be installed/configured beforehand (see repo docs).
@@ -4391,7 +4391,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.151206+02:00"
+    created: "2026-06-22T13:48:49.976941+02:00"
     description: A Krateo blueprint that provisions an AWS Mwaa Environment via the
       AWS Controllers for Kubernetes (ACK) mwaa controller. Requires the ACK mwaa
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -4418,7 +4418,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.151474+02:00"
+    created: "2026-06-22T13:48:49.977127+02:00"
     description: A Krateo blueprint that provisions an AWS Networkfirewall Firewall
       via the AWS Controllers for Kubernetes (ACK) networkfirewall controller. Requires
       the ACK networkfirewall controller and AWS credentials to be installed/configured
@@ -4445,7 +4445,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.152244+02:00"
+    created: "2026-06-22T13:48:49.977667+02:00"
     description: A Krateo blueprint that provisions an AWS Networkfirewall FirewallPolicy
       via the AWS Controllers for Kubernetes (ACK) networkfirewall controller. Requires
       the ACK networkfirewall controller and AWS credentials to be installed/configured
@@ -4472,7 +4472,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.152488+02:00"
+    created: "2026-06-22T13:48:49.978385+02:00"
     description: A Krateo blueprint that provisions an AWS Networkfirewall RuleGroup
       via the AWS Controllers for Kubernetes (ACK) networkfirewall controller. Requires
       the ACK networkfirewall controller and AWS credentials to be installed/configured
@@ -4499,7 +4499,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.15513+02:00"
+    created: "2026-06-22T13:48:49.979232+02:00"
     description: A Krateo blueprint that provisions an AWS Networkmanager GlobalNetwork
       via the AWS Controllers for Kubernetes (ACK) networkmanager controller. Requires
       the ACK networkmanager controller and AWS credentials to be installed/configured
@@ -4526,7 +4526,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.155512+02:00"
+    created: "2026-06-22T13:48:49.9794+02:00"
     description: A Krateo blueprint that provisions an AWS Opensearchserverless Collection
       via the AWS Controllers for Kubernetes (ACK) opensearchserverless controller.
       Requires the ACK opensearchserverless controller and AWS credentials to be installed/configured
@@ -4553,7 +4553,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.155768+02:00"
+    created: "2026-06-22T13:48:49.979547+02:00"
     description: A Krateo blueprint that provisions an AWS Opensearchserverless SecurityPolicy
       via the AWS Controllers for Kubernetes (ACK) opensearchserverless controller.
       Requires the ACK opensearchserverless controller and AWS credentials to be installed/configured
@@ -4580,7 +4580,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.156034+02:00"
+    created: "2026-06-22T13:48:49.979767+02:00"
     description: A Krateo blueprint that provisions an AWS Opensearchservice Domain
       via the AWS Controllers for Kubernetes (ACK) opensearchservice controller. Requires
       the ACK opensearchservice controller and AWS credentials to be installed/configured
@@ -4607,7 +4607,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.156728+02:00"
+    created: "2026-06-22T13:48:49.980068+02:00"
     description: A Krateo blueprint that provisions an AWS Organizations Account via
       the AWS Controllers for Kubernetes (ACK) organizations controller. Requires
       the ACK organizations controller and AWS credentials to be installed/configured
@@ -4634,7 +4634,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.156988+02:00"
+    created: "2026-06-22T13:48:49.980546+02:00"
     description: A Krateo blueprint that provisions an AWS Organizations OrganizationalUnit
       via the AWS Controllers for Kubernetes (ACK) organizations controller. Requires
       the ACK organizations controller and AWS credentials to be installed/configured
@@ -4661,7 +4661,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.160881+02:00"
+    created: "2026-06-22T13:48:49.980943+02:00"
     description: A Krateo blueprint that provisions an AWS Pipes Pipe via the AWS
       Controllers for Kubernetes (ACK) pipes controller. Requires the ACK pipes controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -4687,7 +4687,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.162991+02:00"
+    created: "2026-06-22T13:48:49.981193+02:00"
     description: A Krateo blueprint that provisions an AWS Prometheusservice AlertManagerDefinition
       via the AWS Controllers for Kubernetes (ACK) prometheusservice controller. Requires
       the ACK prometheusservice controller and AWS credentials to be installed/configured
@@ -4714,7 +4714,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.164302+02:00"
+    created: "2026-06-22T13:48:49.981692+02:00"
     description: A Krateo blueprint that provisions an AWS Prometheusservice LoggingConfiguration
       via the AWS Controllers for Kubernetes (ACK) prometheusservice controller. Requires
       the ACK prometheusservice controller and AWS credentials to be installed/configured
@@ -4741,7 +4741,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.164603+02:00"
+    created: "2026-06-22T13:48:49.98194+02:00"
     description: A Krateo blueprint that provisions an AWS Prometheusservice RuleGroupsNamespace
       via the AWS Controllers for Kubernetes (ACK) prometheusservice controller. Requires
       the ACK prometheusservice controller and AWS credentials to be installed/configured
@@ -4768,7 +4768,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.165941+02:00"
+    created: "2026-06-22T13:48:49.982079+02:00"
     description: A Krateo blueprint that provisions an AWS Prometheusservice Workspace
       via the AWS Controllers for Kubernetes (ACK) prometheusservice controller. Requires
       the ACK prometheusservice controller and AWS credentials to be installed/configured
@@ -4795,7 +4795,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.166339+02:00"
+    created: "2026-06-22T13:48:49.982237+02:00"
     description: A Krateo blueprint that provisions an AWS Quicksight Analysis via
       the AWS Controllers for Kubernetes (ACK) quicksight controller. Requires the
       ACK quicksight controller and AWS credentials to be installed/configured beforehand
@@ -4822,7 +4822,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.166718+02:00"
+    created: "2026-06-22T13:48:49.982428+02:00"
     description: A Krateo blueprint that provisions an AWS Quicksight Dashboard via
       the AWS Controllers for Kubernetes (ACK) quicksight controller. Requires the
       ACK quicksight controller and AWS credentials to be installed/configured beforehand
@@ -4849,7 +4849,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.167044+02:00"
+    created: "2026-06-22T13:48:49.982671+02:00"
     description: A Krateo blueprint that provisions an AWS Quicksight DataSet via
       the AWS Controllers for Kubernetes (ACK) quicksight controller. Requires the
       ACK quicksight controller and AWS credentials to be installed/configured beforehand
@@ -4876,7 +4876,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.167276+02:00"
+    created: "2026-06-22T13:48:49.982892+02:00"
     description: A Krateo blueprint that provisions an AWS Quicksight DataSource via
       the AWS Controllers for Kubernetes (ACK) quicksight controller. Requires the
       ACK quicksight controller and AWS credentials to be installed/configured beforehand
@@ -4903,7 +4903,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.167446+02:00"
+    created: "2026-06-22T13:48:49.983092+02:00"
     description: A Krateo blueprint that provisions an AWS Ram Permission via the
       AWS Controllers for Kubernetes (ACK) ram controller. Requires the ACK ram controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -4929,7 +4929,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.167941+02:00"
+    created: "2026-06-22T13:48:49.98328+02:00"
     description: A Krateo blueprint that provisions an AWS Ram ResourceShare via the
       AWS Controllers for Kubernetes (ACK) ram controller. Requires the ACK ram controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -4955,7 +4955,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.169705+02:00"
+    created: "2026-06-22T13:48:49.983628+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBCluster via the AWS
       Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -4981,7 +4981,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.171551+02:00"
+    created: "2026-06-22T13:48:49.983876+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBClusterEndpoint via
       the AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -5008,7 +5008,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.171801+02:00"
+    created: "2026-06-22T13:48:49.984087+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBClusterParameterGroup
       via the AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK
       rds controller and AWS credentials to be installed/configured beforehand (see
@@ -5035,7 +5035,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.17223+02:00"
+    created: "2026-06-22T13:48:49.984369+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBClusterSnapshot via
       the AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -5062,7 +5062,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.173075+02:00"
+    created: "2026-06-22T13:48:49.9848+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBInstance via the
       AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -5088,7 +5088,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.173239+02:00"
+    created: "2026-06-22T13:48:49.984962+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBParameterGroup via
       the AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -5115,7 +5115,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.17342+02:00"
+    created: "2026-06-22T13:48:49.985182+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBProxy via the AWS
       Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -5141,7 +5141,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.173563+02:00"
+    created: "2026-06-22T13:48:49.98545+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBSnapshot via the
       AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -5167,7 +5167,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.173711+02:00"
+    created: "2026-06-22T13:48:49.985731+02:00"
     description: A Krateo blueprint that provisions an AWS Rds DBSubnetGroup via the
       AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -5193,7 +5193,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.173985+02:00"
+    created: "2026-06-22T13:48:49.985877+02:00"
     description: A Krateo blueprint that provisions an AWS Rds GlobalCluster via the
       AWS Controllers for Kubernetes (ACK) rds controller. Requires the ACK rds controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -5219,7 +5219,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-7.2.0
-    created: "2026-06-22T13:45:43.174463+02:00"
+    created: "2026-06-22T13:48:49.986255+02:00"
     description: A Krateo composite blueprint that provisions an AWS RDS database
       (DB subnet group, DB instance and optional DB parameter group) via the ACK rds
       controller. Inputs mirror terraform-aws-modules/rds/aws. Requires the ACK rds
@@ -5248,7 +5248,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.174629+02:00"
+    created: "2026-06-22T13:48:49.986414+02:00"
     description: A Krateo blueprint that provisions an AWS Recyclebin Rule via the
       AWS Controllers for Kubernetes (ACK) recyclebin controller. Requires the ACK
       recyclebin controller and AWS credentials to be installed/configured beforehand
@@ -5275,7 +5275,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.174774+02:00"
+    created: "2026-06-22T13:48:49.986566+02:00"
     description: A Krateo blueprint that provisions an AWS Route53 HealthCheck via
       the AWS Controllers for Kubernetes (ACK) route53 controller. Requires the ACK
       route53 controller and AWS credentials to be installed/configured beforehand
@@ -5302,7 +5302,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.174921+02:00"
+    created: "2026-06-22T13:48:49.986734+02:00"
     description: A Krateo blueprint that provisions an AWS Route53 HostedZone via
       the AWS Controllers for Kubernetes (ACK) route53 controller. Requires the ACK
       route53 controller and AWS credentials to be installed/configured beforehand
@@ -5329,7 +5329,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.175605+02:00"
+    created: "2026-06-22T13:48:49.98741+02:00"
     description: A Krateo blueprint that provisions an AWS Route53 RecordSet via the
       AWS Controllers for Kubernetes (ACK) route53 controller. Requires the ACK route53
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -5356,7 +5356,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.177126+02:00"
+    created: "2026-06-22T13:48:49.988183+02:00"
     description: A Krateo blueprint that provisions an AWS Route53resolver ResolverEndpoint
       via the AWS Controllers for Kubernetes (ACK) route53resolver controller. Requires
       the ACK route53resolver controller and AWS credentials to be installed/configured
@@ -5383,7 +5383,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.177366+02:00"
+    created: "2026-06-22T13:48:49.988556+02:00"
     description: A Krateo blueprint that provisions an AWS Route53resolver ResolverRule
       via the AWS Controllers for Kubernetes (ACK) route53resolver controller. Requires
       the ACK route53resolver controller and AWS credentials to be installed/configured
@@ -5410,7 +5410,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.177544+02:00"
+    created: "2026-06-22T13:48:49.989143+02:00"
     description: A Krateo blueprint that provisions an AWS Route53resolver ResolverRuleAssociation
       via the AWS Controllers for Kubernetes (ACK) route53resolver controller. Requires
       the ACK route53resolver controller and AWS credentials to be installed/configured
@@ -5437,7 +5437,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.179818+02:00"
+    created: "2026-06-22T13:48:49.989526+02:00"
     description: A Krateo blueprint that provisions an AWS S3 Bucket via the AWS Controllers
       for Kubernetes (ACK) s3 controller. Requires the ACK s3 controller and AWS credentials
       to be installed/configured beforehand (see repo docs).
@@ -5463,7 +5463,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.18019+02:00"
+    created: "2026-06-22T13:48:49.989678+02:00"
     description: A Krateo blueprint that provisions an AWS S3control AccessPoint via
       the AWS Controllers for Kubernetes (ACK) s3control controller. Requires the
       ACK s3control controller and AWS credentials to be installed/configured beforehand
@@ -5490,7 +5490,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.180502+02:00"
+    created: "2026-06-22T13:48:49.989977+02:00"
     description: A Krateo blueprint that provisions an AWS S3files AccessPoint via
       the AWS Controllers for Kubernetes (ACK) s3files controller. Requires the ACK
       s3files controller and AWS credentials to be installed/configured beforehand
@@ -5517,7 +5517,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.18076+02:00"
+    created: "2026-06-22T13:48:49.990153+02:00"
     description: A Krateo blueprint that provisions an AWS S3files FileSystem via
       the AWS Controllers for Kubernetes (ACK) s3files controller. Requires the ACK
       s3files controller and AWS credentials to be installed/configured beforehand
@@ -5544,7 +5544,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.180931+02:00"
+    created: "2026-06-22T13:48:49.990437+02:00"
     description: A Krateo blueprint that provisions an AWS S3files MountTarget via
       the AWS Controllers for Kubernetes (ACK) s3files controller. Requires the ACK
       s3files controller and AWS credentials to be installed/configured beforehand
@@ -5571,7 +5571,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.18108+02:00"
+    created: "2026-06-22T13:48:49.990611+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker App via the AWS
       Controllers for Kubernetes (ACK) sagemaker controller. Requires the ACK sagemaker
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -5598,7 +5598,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.181247+02:00"
+    created: "2026-06-22T13:48:49.990789+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker DataQualityJobDefinition
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5625,7 +5625,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.181658+02:00"
+    created: "2026-06-22T13:48:49.990996+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Domain via the
       AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the ACK
       sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -5652,7 +5652,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.182491+02:00"
+    created: "2026-06-22T13:48:49.991161+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Endpoint via
       the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the
       ACK sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -5679,7 +5679,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.182826+02:00"
+    created: "2026-06-22T13:48:49.99155+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker EndpointConfig
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5706,7 +5706,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.183028+02:00"
+    created: "2026-06-22T13:48:49.992326+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker FeatureGroup
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5733,7 +5733,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.18341+02:00"
+    created: "2026-06-22T13:48:49.992814+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker HyperParameterTuningJob
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5760,7 +5760,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.183645+02:00"
+    created: "2026-06-22T13:48:49.99304+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker InferenceComponent
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5787,7 +5787,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.184367+02:00"
+    created: "2026-06-22T13:48:49.993267+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker LabelingJob via
       the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the
       ACK sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -5814,7 +5814,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.184604+02:00"
+    created: "2026-06-22T13:48:49.99347+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Model via the
       AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the ACK
       sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -5841,7 +5841,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.184781+02:00"
+    created: "2026-06-22T13:48:49.993662+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ModelBiasJobDefinition
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5868,7 +5868,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.184978+02:00"
+    created: "2026-06-22T13:48:49.993841+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ModelExplainabilityJobDefinition
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5895,7 +5895,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.185243+02:00"
+    created: "2026-06-22T13:48:49.994067+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ModelPackage
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5922,7 +5922,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.185657+02:00"
+    created: "2026-06-22T13:48:49.994306+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ModelPackageGroup
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5949,7 +5949,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.187077+02:00"
+    created: "2026-06-22T13:48:49.994596+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ModelQualityJobDefinition
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -5976,7 +5976,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.188093+02:00"
+    created: "2026-06-22T13:48:49.994996+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker MonitoringSchedule
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6003,7 +6003,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.188544+02:00"
+    created: "2026-06-22T13:48:49.995333+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker NotebookInstance
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6030,7 +6030,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.188819+02:00"
+    created: "2026-06-22T13:48:49.995513+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker NotebookInstanceLifecycleConfig
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6057,7 +6057,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.190166+02:00"
+    created: "2026-06-22T13:48:49.996468+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Pipeline via
       the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the
       ACK sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -6084,7 +6084,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.192786+02:00"
+    created: "2026-06-22T13:48:49.996691+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker PipelineExecution
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6111,7 +6111,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.193536+02:00"
+    created: "2026-06-22T13:48:49.996895+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker ProcessingJob
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6138,7 +6138,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.194658+02:00"
+    created: "2026-06-22T13:48:49.997069+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Project via the
       AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the ACK
       sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -6165,7 +6165,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.195185+02:00"
+    created: "2026-06-22T13:48:49.997253+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker Space via the
       AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the ACK
       sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -6192,7 +6192,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.196788+02:00"
+    created: "2026-06-22T13:48:49.997525+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker TrainingJob via
       the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the
       ACK sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -6219,7 +6219,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.199801+02:00"
+    created: "2026-06-22T13:48:49.997717+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker TransformJob
       via the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires
       the ACK sagemaker controller and AWS credentials to be installed/configured
@@ -6246,7 +6246,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.200259+02:00"
+    created: "2026-06-22T13:48:49.997914+02:00"
     description: A Krateo blueprint that provisions an AWS Sagemaker UserProfile via
       the AWS Controllers for Kubernetes (ACK) sagemaker controller. Requires the
       ACK sagemaker controller and AWS credentials to be installed/configured beforehand
@@ -6273,7 +6273,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.200607+02:00"
+    created: "2026-06-22T13:48:49.998091+02:00"
     description: A Krateo blueprint that provisions an AWS Secretsmanager Secret via
       the AWS Controllers for Kubernetes (ACK) secretsmanager controller. Requires
       the ACK secretsmanager controller and AWS credentials to be installed/configured
@@ -6300,7 +6300,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-6.0.0
-    created: "2026-06-22T13:45:43.200937+02:00"
+    created: "2026-06-22T13:48:49.998427+02:00"
     description: A Krateo composite blueprint that provisions an AWS EC2 Security
       Group with ingress/egress rules via the ACK ec2 controller. Inputs mirror terraform-aws-modules/security-group/aws.
       Requires the ACK ec2 controller and AWS credentials (see repo docs).
@@ -6330,7 +6330,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.201109+02:00"
+    created: "2026-06-22T13:48:49.998687+02:00"
     description: A Krateo blueprint that provisions an AWS Ses ConfigurationSet via
       the AWS Controllers for Kubernetes (ACK) ses controller. Requires the ACK ses
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -6357,7 +6357,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.201374+02:00"
+    created: "2026-06-22T13:48:49.998852+02:00"
     description: A Krateo blueprint that provisions an AWS Sfn Activity via the AWS
       Controllers for Kubernetes (ACK) sfn controller. Requires the ACK sfn controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6383,7 +6383,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.201531+02:00"
+    created: "2026-06-22T13:48:49.999028+02:00"
     description: A Krateo blueprint that provisions an AWS Sfn StateMachine via the
       AWS Controllers for Kubernetes (ACK) sfn controller. Requires the ACK sfn controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6409,7 +6409,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.201843+02:00"
+    created: "2026-06-22T13:48:49.999189+02:00"
     description: A Krateo blueprint that provisions an AWS Sns PlatformApplication
       via the AWS Controllers for Kubernetes (ACK) sns controller. Requires the ACK
       sns controller and AWS credentials to be installed/configured beforehand (see
@@ -6436,7 +6436,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.202006+02:00"
+    created: "2026-06-22T13:48:49.999344+02:00"
     description: A Krateo blueprint that provisions an AWS Sns PlatformEndpoint via
       the AWS Controllers for Kubernetes (ACK) sns controller. Requires the ACK sns
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -6463,7 +6463,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.202161+02:00"
+    created: "2026-06-22T13:48:49.999509+02:00"
     description: A Krateo blueprint that provisions an AWS Sns Subscription via the
       AWS Controllers for Kubernetes (ACK) sns controller. Requires the ACK sns controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6489,7 +6489,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.202444+02:00"
+    created: "2026-06-22T13:48:49.999672+02:00"
     description: A Krateo blueprint that provisions an AWS Sns Topic via the AWS Controllers
       for Kubernetes (ACK) sns controller. Requires the ACK sns controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -6515,7 +6515,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.203296+02:00"
+    created: "2026-06-22T13:48:49.999834+02:00"
     description: A Krateo blueprint that provisions an AWS Sqs Queue via the AWS Controllers
       for Kubernetes (ACK) sqs controller. Requires the ACK sqs controller and AWS
       credentials to be installed/configured beforehand (see repo docs).
@@ -6541,7 +6541,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.204685+02:00"
+    created: "2026-06-22T13:48:50.000024+02:00"
     description: A Krateo blueprint that provisions an AWS Ssm Document via the AWS
       Controllers for Kubernetes (ACK) ssm controller. Requires the ACK ssm controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6567,7 +6567,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.20572+02:00"
+    created: "2026-06-22T13:48:50.000236+02:00"
     description: A Krateo blueprint that provisions an AWS Ssm Parameter via the AWS
       Controllers for Kubernetes (ACK) ssm controller. Requires the ACK ssm controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6593,7 +6593,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.206026+02:00"
+    created: "2026-06-22T13:48:50.000417+02:00"
     description: A Krateo blueprint that provisions an AWS Ssm PatchBaseline via the
       AWS Controllers for Kubernetes (ACK) ssm controller. Requires the ACK ssm controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6619,7 +6619,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.206293+02:00"
+    created: "2026-06-22T13:48:50.000579+02:00"
     description: A Krateo blueprint that provisions an AWS Ssm ResourceDataSync via
       the AWS Controllers for Kubernetes (ACK) ssm controller. Requires the ACK ssm
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -6646,7 +6646,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: tfmod-6.6.1
-    created: "2026-06-22T13:45:43.207579+02:00"
+    created: "2026-06-22T13:48:50.000955+02:00"
     description: A Krateo composite blueprint that provisions an AWS VPC (subnets,
       route tables, internet gateway, NAT) via the ACK ec2 controller. Inputs mirror
       terraform-aws-modules/vpc/aws. Requires the ACK ec2 controller and AWS credentials
@@ -6676,7 +6676,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.209372+02:00"
+    created: "2026-06-22T13:48:50.00119+02:00"
     description: A Krateo blueprint that provisions an AWS Wafv2 IPSet via the AWS
       Controllers for Kubernetes (ACK) wafv2 controller. Requires the ACK wafv2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6702,7 +6702,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.22918+02:00"
+    created: "2026-06-22T13:48:50.002595+02:00"
     description: A Krateo blueprint that provisions an AWS Wafv2 RuleGroup via the
       AWS Controllers for Kubernetes (ACK) wafv2 controller. Requires the ACK wafv2
       controller and AWS credentials to be installed/configured beforehand (see repo
@@ -6729,7 +6729,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v1alpha1
-    created: "2026-06-22T13:45:43.231392+02:00"
+    created: "2026-06-22T13:48:50.003551+02:00"
     description: A Krateo blueprint that provisions an AWS Wafv2 WebACL via the AWS
       Controllers for Kubernetes (ACK) wafv2 controller. Requires the ACK wafv2 controller
       and AWS credentials to be installed/configured beforehand (see repo docs).
@@ -6755,7 +6755,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.241539+02:00"
+    created: "2026-06-22T13:48:50.007094+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -6778,53 +6778,6 @@ entries:
     urls:
     - https://braghettos.github.io/charts/blueprints/barbican-0.2.0.tgz
     version: 0.2.0
-  baremetal-discovery:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-06-22T13:45:43.242455+02:00"
-    description: Discovery composition for Ironic bare-metal nodes. Creates a Node
-      CR + drives manage + inspect via KOG NodeProvisions, then surfaces inventory
-      (cpus/memory/disks/NICs + capabilities) in the Node CR's status. Output is consumed
-      as INPUT to baremetal-lifecycle (the operator/policy reads inventory and writes
-      a lifecycle spec). No ports created here, no provide/deploy - this composition
-      only discovers.
-    digest: b5e2cf96846acc38fccd65d5d802ad08ba498208981b51ee20f2c5bcfe3932af
-    keywords:
-    - ironic
-    - bare-metal
-    - inspection
-    - inventory
-    - krateo
-    maintainers:
-    - name: openstack-ironic-operator
-    name: baremetal-discovery
-    type: application
-    urls:
-    - https://braghettos.github.io/charts/blueprints/baremetal-discovery-0.1.1.tgz
-    version: 0.1.1
-  baremetal-host:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-06-22T13:45:43.243877+02:00"
-    description: 'Unified single-CRD composition for Ironic bare-metal host lifecycle.
-      Absorbs the baremetal-discovery + baremetal-lifecycle split into one BaremetalHost
-      resource with phase gates, like metal3''s BaremetalHost. State machine:   registering
-      -> (inspecting -> ready)? -> available -> (provisioning -> provisioned) Power
-      is managed via spec.online when set. '
-    digest: 1a91b30a7a652871c88fe991aeda9fd568844c19e63cfe3df605d2b85fa55ffa
-    keywords:
-    - ironic
-    - bare-metal
-    - openstack
-    - krateo
-    - metal3
-    maintainers:
-    - name: openstack-ironic-operator
-    name: baremetal-host
-    type: application
-    urls:
-    - https://braghettos.github.io/charts/blueprints/baremetal-host-0.3.5.tgz
-    version: 0.3.5
   baremetal-lifecycle:
   - annotations:
       krateo.io/category: compute
@@ -6833,7 +6786,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "1.0"
-    created: "2026-06-22T13:45:43.244973+02:00"
+    created: "2026-06-22T13:48:50.007755+02:00"
     description: Helm chart for Ironic bare metal server provisioning via composition-dynamic-controller.
       Creates a Node CR + Port CRs (synced by KOG) and per-state NodeProvision CRs
       that drive Ironic from `enroll` to `active`. Inspection is OUT OF SCOPE - use
@@ -6863,7 +6816,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.255252+02:00"
+    created: "2026-06-22T13:48:50.013484+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -6893,7 +6846,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.278709+02:00"
+    created: "2026-06-22T13:48:50.018206+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -6923,7 +6876,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.290893+02:00"
+    created: "2026-06-22T13:48:50.023398+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -6954,7 +6907,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-06-22T13:45:43.29265+02:00"
+    created: "2026-06-22T13:48:50.023784+02:00"
     description: ClickHouse MCP server exposing SQL query tools over SSE for AI agents.
     digest: 4001c81dfe8e1b05cb82c240b520612d4a8f36c3bcc04e553f31cb4062f25b31
     home: https://krateo.io
@@ -6980,7 +6933,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-06-22T13:45:43.314923+02:00"
+    created: "2026-06-22T13:48:50.027406+02:00"
     dependencies:
     - alias: operator
       name: clickhouse-operator-helm
@@ -7012,7 +6965,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.321609+02:00"
+    created: "2026-06-22T13:48:50.033844+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7042,7 +6995,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.326595+02:00"
+    created: "2026-06-22T13:48:50.036798+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7072,7 +7025,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.336036+02:00"
+    created: "2026-06-22T13:48:50.041138+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7103,7 +7056,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: latest
-    created: "2026-06-22T13:45:43.336548+02:00"
+    created: "2026-06-22T13:48:50.0415+02:00"
     description: 'Tokenless HTTP fetch MCP server (mcp/fetch): GETs a URL and returns
       its content as markdown, so kagent agents can read their version-pinned docs/llms.txt
       from public raw.githubusercontent.com URLs with NO token/auth. Packaged as a
@@ -7133,7 +7086,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.34312+02:00"
+    created: "2026-06-22T13:48:50.046479+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7164,7 +7117,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.358151+02:00"
+    created: "2026-06-22T13:48:50.053999+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7194,7 +7147,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.366416+02:00"
+    created: "2026-06-22T13:48:50.058534+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7224,7 +7177,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.37351+02:00"
+    created: "2026-06-22T13:48:50.065405+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7254,7 +7207,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.380421+02:00"
+    created: "2026-06-22T13:48:50.070787+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7285,7 +7238,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 2.27.0
-    created: "2026-06-22T13:45:43.380884+02:00"
+    created: "2026-06-22T13:48:50.071288+02:00"
     description: Generates a HyperDX operator using the Krateo operator generator
       (oasgen-provider). Ships two RestDefinitions — Webhook and Alert — that oasgen-provider
       turns into managed CRDs + controllers (Webhook/Alert plus their *Configuration
@@ -7315,7 +7268,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 2.7.0
-    created: "2026-06-22T13:45:43.385741+02:00"
+    created: "2026-06-22T13:48:50.074089+02:00"
     dependencies:
     - condition: bootstrap.coreProvider.enabled
       name: krateo-core-provider
@@ -7346,7 +7299,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.393143+02:00"
+    created: "2026-06-22T13:48:50.080045+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7377,7 +7330,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.9.9
-    created: "2026-06-22T13:45:43.415181+02:00"
+    created: "2026-06-22T13:48:50.095161+02:00"
     dependencies:
     - alias: kagentapp
       name: kagent
@@ -7414,7 +7367,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "26.0"
-    created: "2026-06-22T13:45:43.415751+02:00"
+    created: "2026-06-22T13:48:50.095667+02:00"
     description: Krateo Operator Generator (KOG) packaging that exposes Keycloak Admin
       API resources (realm, client, protocol-mapper, client-scope, group, identity-provider)
       as native Kubernetes custom resources. oasgen-provider + rest-dynamic-controller
@@ -7446,7 +7399,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.424688+02:00"
+    created: "2026-06-22T13:48:50.102775+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7477,7 +7430,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-06-22T13:45:43.425319+02:00"
+    created: "2026-06-22T13:48:50.104359+02:00"
     description: Converts Ansible playbooks and roles into Kubernetes operators using
       the Operator SDK Ansible Operator path.
     digest: 775a78b675b1859565ed03edf790c29ecd18a842ce17cb704f7829bf25168a3b
@@ -7506,7 +7459,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.22.13
-    created: "2026-06-22T13:45:43.42587+02:00"
+    created: "2026-06-22T13:48:50.104989+02:00"
     description: Krateo PlatformOps AuthN Service
     digest: 54fbc152a7dab363162d8d4db19087f1364977cd4c457228ca6d5244bc852a48
     home: https://krateo.io
@@ -7533,7 +7486,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.430001+02:00"
+    created: "2026-06-22T13:48:50.107496+02:00"
     description: Installs all Krateo Autopilot agents, MCP servers, model configs,
       and prompts
     digest: fae3a8cbb5142945f422c26cd9dc43612491ab3dc12c23c24b7f9c073e98722b
@@ -7552,34 +7505,6 @@ entries:
     urls:
     - https://braghettos.github.io/charts/blueprints/krateo-autopilot-0.1.28.tgz
     version: 0.1.28
-  krateo-clickstack:
-  - apiVersion: v2
-    appVersion: 3.0.0
-    created: "2026-06-22T13:45:43.434346+02:00"
-    dependencies:
-    - name: clickstack
-      repository: https://clickhouse.github.io/ClickStack-helm-charts
-      version: 3.0.0
-    description: ClickStack (ClickHouse + OTel gateway + HyperDX + MongoDB) for the
-      Krateo observability stack, packaged as a Krateo composition. Wraps the upstream
-      clickstack chart and folds in the ClickHouse HTTP-handlers ConfigMap, the otel-clickhouse
-      credentials Secret, and a HyperDX LoadBalancer Service. Replaces obs-stack install.sh
-      phases 1, 2, 2b and 2c (no imperative kubectl).
-    digest: 9190d7746d88fd4fcbb88f6224907afd0beb92c0a085de922cb35cf2dfe96a7a
-    home: https://krateo.io
-    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
-    keywords:
-    - krateo
-    - platformops
-    - clickstack
-    - observability
-    name: krateo-clickstack
-    sources:
-    - https://github.com/braghettos/krateo-clickstack-chart
-    type: application
-    urls:
-    - https://braghettos.github.io/charts/blueprints/krateo-clickstack-0.1.6.tgz
-    version: 0.1.6
   krateo-code-analysis-agent:
   - annotations:
       krateo.io/category: generator
@@ -7588,7 +7513,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-06-22T13:45:43.434774+02:00"
+    created: "2026-06-22T13:48:50.108215+02:00"
     description: Traces Krateo components to their GitHub source repositories, searches
       code for error patterns, reads source files, and checks recent commits for regressions.
     digest: f626ef17a635746e9214873797aaf9ed5d4169fade6d2f8a10682c2efe54c135
@@ -7615,7 +7540,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.36.24
-    created: "2026-06-22T13:45:43.437406+02:00"
+    created: "2026-06-22T13:48:50.110315+02:00"
     description: Krateo PlatformOps Core Provider
     digest: b44ba9381e603722348b3f6da4dfdf28bb124be8cb5e58c89984534f2f64f3ab
     home: https://krateo.io
@@ -7641,7 +7566,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 1.0.21
-    created: "2026-06-22T13:45:43.437921+02:00"
+    created: "2026-06-22T13:48:50.112873+02:00"
     description: Krateo Frontend
     digest: b52730da4a716413d768b48aea1745b4455e14079da2837c25e41f59e3b8ca16
     home: https://krateo.io
@@ -7666,7 +7591,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.8.1
-    created: "2026-06-22T13:45:43.438709+02:00"
+    created: "2026-06-22T13:48:50.113431+02:00"
     description: Krateo PlatformOps OASGen Provider
     digest: dec233f29c24e2b33bd4f8e4e73e9b2376e9c8c2a8197e12abfed2a341ad8f67
     home: https://krateo.io
@@ -7683,34 +7608,6 @@ entries:
     urls:
     - https://braghettos.github.io/charts/blueprints/krateo-oasgen-provider-0.9.5.tgz
     version: 0.9.5
-  krateo-observability:
-  - apiVersion: v2
-    appVersion: 3.0.0
-    created: "2026-06-22T13:45:43.444514+02:00"
-    dependencies:
-    - name: clickstack
-      repository: https://clickhouse.github.io/ClickStack-helm-charts
-      version: 3.0.0
-    description: ClickStack (ClickHouse + OTel gateway + HyperDX + MongoDB) for the
-      Krateo observability stack, packaged as a Krateo composition. Wraps the upstream
-      clickstack chart and folds in the ClickHouse HTTP-handlers ConfigMap, the otel-clickhouse
-      credentials Secret, and a HyperDX LoadBalancer Service. Replaces obs-stack install.sh
-      phases 1, 2, 2b and 2c (no imperative kubectl).
-    digest: afa4fd910b5c4071a5bd56222d8bedc5eec1563cc35bc984559cc48ff8519ebd
-    home: https://krateo.io
-    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
-    keywords:
-    - krateo
-    - platformops
-    - clickstack
-    - observability
-    name: krateo-observability
-    sources:
-    - https://github.com/braghettos/krateo-clickstack-chart
-    type: application
-    urls:
-    - https://braghettos.github.io/charts/blueprints/krateo-observability-0.1.6.tgz
-    version: 0.1.6
   krateo-snowplow:
   - annotations:
       krateo.io/category: application
@@ -7719,7 +7616,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 1.0.21
-    created: "2026-06-22T13:45:43.446188+02:00"
+    created: "2026-06-22T13:48:50.116009+02:00"
     description: A Helm chart for Krateo PlatformOps Snowplow
     digest: 3286c222ee974f6a9a26e44913f20efc41cdbd9f5dbb63c25d38328f0316213d
     home: https://krateo.io
@@ -7745,7 +7642,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-06-22T13:45:43.447439+02:00"
+    created: "2026-06-22T13:48:50.116547+02:00"
     description: Translates Terraform providers into Kubernetes operators, or recommends
       existing ones (ACK, Config Connector, ASO, Crossplane).
     digest: f23e4af9588e944584a4483f66fe132a3ed5098d1ac6f9f5c14694903c995b41
@@ -7774,7 +7671,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-06-22T13:45:43.44784+02:00"
+    created: "2026-06-22T13:48:50.117551+02:00"
     description: Translates Terraform configurations into Helm charts.
     digest: 3be076fc78bf8c83b144e9108bc3990115a03147a6145726f3220a0a45c19ffd
     home: https://krateo.io
@@ -7794,32 +7691,6 @@ entries:
     urls:
     - https://braghettos.github.io/charts/blueprints/krateo-tf-to-helm-agent-0.1.4.tgz
     version: 0.1.4
-  kubernetes-cluster:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2026-06-22T13:45:43.449935+02:00"
-    description: 'Krateo blueprint that turns a set of Ironic-managed bare-metal nodes
-      into a vanilla kubeadm-bootstrapped Kubernetes cluster. Renders one BaremetalLifecycle
-      per cluster member (control plane + workers) and gates the join sequence on
-      the control plane having published its `kubeadm join` command into its own Node
-      CR''s spec.extra.kubeadm_join (rendezvous via the existing Node KOG primitive
-      — no new CRDs, no new tools).  State machine:   cp:      lifecycle(deploy)  ->
-      kubeadm init -> patch own Node.spec.extra   workers: gated on cp Node.spec.extra.kubeadm_join
-      present            -> lifecycle(deploy) -> kubeadm join '
-    digest: 8b68c5bdd1d1751dad0802dda9e6c621fc3b234675ab63b45a3cc6fe0cf9d4a9
-    keywords:
-    - kubernetes
-    - kubeadm
-    - bare-metal
-    - krateo
-    - ironic
-    maintainers:
-    - name: openstack-ironic-operator
-    name: kubernetes-cluster
-    type: application
-    urls:
-    - https://braghettos.github.io/charts/blueprints/kubernetes-cluster-0.10.15.tgz
-    version: 0.10.15
   libvirt:
   - annotations:
       krateo.io/category: compute
@@ -7827,7 +7698,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.455821+02:00"
+    created: "2026-06-22T13:48:50.123186+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7857,7 +7728,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.460571+02:00"
+    created: "2026-06-22T13:48:50.126078+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7887,7 +7758,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.46962+02:00"
+    created: "2026-06-22T13:48:50.132439+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7917,7 +7788,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.481627+02:00"
+    created: "2026-06-22T13:48:50.143126+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7947,7 +7818,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.490049+02:00"
+    created: "2026-06-22T13:48:50.149013+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -7978,7 +7849,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.493354+02:00"
+    created: "2026-06-22T13:48:50.151456+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8003,7 +7874,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.498601+02:00"
+    created: "2026-06-22T13:48:50.161963+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8034,7 +7905,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.13.0
-    created: "2026-06-22T13:45:43.500901+02:00"
+    created: "2026-06-22T13:48:50.162905+02:00"
     dependencies:
     - alias: operator
       name: community-operator
@@ -8066,7 +7937,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.513528+02:00"
+    created: "2026-06-22T13:48:50.18301+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8096,7 +7967,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.532813+02:00"
+    created: "2026-06-22T13:48:50.211205+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8127,7 +7998,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.533247+02:00"
+    created: "2026-06-22T13:48:50.214789+02:00"
     description: 'Krateo blueprint that provisions a complete Nutanix AHV virtual
       machine — with its disks, NICs, CD-ROMs and serial ports declared INLINE on
       the VM — as a single KOG resource. This is the composition-friendly way to model
@@ -8160,7 +8031,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.554625+02:00"
+    created: "2026-06-22T13:48:50.221023+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8190,7 +8061,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.557745+02:00"
+    created: "2026-06-22T13:48:50.221812+02:00"
     description: Krateo umbrella that orchestrates the per-component OpenStack blueprints
       into one ordered, readiness-gated installation.
     digest: e302958ba9234fe5ba848b007b30e99ab625e841f4e35d927a6a43dc73354207
@@ -8215,7 +8086,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.55845+02:00"
+    created: "2026-06-22T13:48:50.222519+02:00"
     description: 'Krateo Operator Generator (KOG) packaging that turns OpenStack Glance
       image resources (images, web-download imports and image members) into native
       Kubernetes custom resources, driven by oasgen-provider + rest-dynamic-controller. '
@@ -8248,7 +8119,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.55912+02:00"
+    created: "2026-06-22T13:48:50.223173+02:00"
     description: 'Krateo Operator Generator (KOG) packaging that turns OpenStack Keystone
       identity resources (projects, users, roles, groups, domains, role assignments
       and application credentials) into native Kubernetes custom resources, driven
@@ -8282,7 +8153,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.559641+02:00"
+    created: "2026-06-22T13:48:50.223879+02:00"
     description: 'Krateo Operator Generator (KOG) packaging that turns OpenStack Neutron
       networking resources (networks, subnets, routers, ports, security groups and
       floating IPs) into native Kubernetes custom resources, driven by oasgen-provider
@@ -8315,7 +8186,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:45:43.560111+02:00"
+    created: "2026-06-22T13:48:50.224439+02:00"
     description: 'Krateo Operator Generator (KOG) packaging that turns OpenStack Nova
       compute instances into native Kubernetes custom resources, validated against
       OVH Public Cloud as the managed OpenStack target. '
@@ -8347,7 +8218,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.567144+02:00"
+    created: "2026-06-22T13:48:50.228819+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8377,7 +8248,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.580501+02:00"
+    created: "2026-06-22T13:48:50.236479+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8407,7 +8278,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 1.2.3
-    created: "2026-06-22T13:45:43.581705+02:00"
+    created: "2026-06-22T13:48:50.238421+02:00"
     description: A Blueprint for Krateo Composable Portal
     digest: 6d7aa010fb314545f55e749e59f83b8d8eb6613261ffdc4834bbecb4c26cde87
     home: https://krateo.io
@@ -8432,7 +8303,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.588172+02:00"
+    created: "2026-06-22T13:48:50.244723+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8458,7 +8329,7 @@ entries:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     appVersion: v2.14.2
-    created: "2026-06-22T13:45:43.590272+02:00"
+    created: "2026-06-22T13:48:50.246703+02:00"
     description: A Krateo blueprint that installs Rancher. It is a fork of the official
       Rancher Helm chart with a complete, crdgen-suitable values.schema.json so Compositions
       can configure the install. cert-manager is a required prerequisite and must
@@ -8486,7 +8357,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.602729+02:00"
+    created: "2026-06-22T13:48:50.251233+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8517,7 +8388,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.611076+02:00"
+    created: "2026-06-22T13:48:50.25913+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8547,7 +8418,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.614972+02:00"
+    created: "2026-06-22T13:48:50.263823+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8577,7 +8448,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.623334+02:00"
+    created: "2026-06-22T13:48:50.27056+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8607,7 +8478,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.629275+02:00"
+    created: "2026-06-22T13:48:50.277069+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8637,7 +8508,7 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: "2025.1"
-    created: "2026-06-22T13:45:43.635914+02:00"
+    created: "2026-06-22T13:48:50.283486+02:00"
     dependencies:
     - name: helm-toolkit
       repository: file://../helm-toolkit
@@ -8661,4 +8532,4 @@ entries:
     urls:
     - https://braghettos.github.io/charts/blueprints/zaqar-0.2.0.tgz
     version: 0.2.0
-generated: "2026-06-22T13:45:43.048076+02:00"
+generated: "2026-06-22T13:48:49.91099+02:00"
