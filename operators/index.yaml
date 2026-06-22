@@ -3,7 +3,7 @@ entries:
   hetzner-object-storage-kog:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:40:32.787483+02:00"
+    created: "2026-06-22T13:45:43.797923+02:00"
     description: 'Krateo OASGen operator chart for Hetzner Object Storage buckets.
       Installs a RestDefinition (consumed by krateoplatformops/oasgen-provider) that
       generates the Bucket and BucketConfiguration CRDs and wires up the generic rest-dynamic-controller
@@ -26,7 +26,7 @@ entries:
   kagent-crds:
   - apiVersion: v2
     appVersion: 0.9.9
-    created: "2026-06-22T13:40:32.807079+02:00"
+    created: "2026-06-22T13:45:43.812296+02:00"
     dependencies:
     - alias: crds
       name: kagent-crds
@@ -39,7 +39,7 @@ entries:
       The kagent composition depends on this one being Ready, so the CRDs are installed
       AND established before any kagent CR renders — replacing the old crds/ pre-install
       hack with composition dependency ordering. No fork of upstream.
-    digest: a4eb1e340bf16358d71ef787d4e23713d3d6bb2ef91b783466be4ca3c4e750dc
+    digest: 62c3a8a96eea44099df0a606098f45373fbbf6b3ef487a73e7710d5850c5a20c
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     name: kagent-crds
@@ -53,13 +53,13 @@ entries:
   krateo-authn-agent:
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2026-06-22T13:40:32.808708+02:00"
+    created: "2026-06-22T13:45:43.813089+02:00"
     description: Federated specialist agent for Krateo authn. A kagent Agent that
       manages authentication (LDAP, OIDC, OAuth 2.0, basic auth) and is the dedicated
       expert on the authn component — it knows the authn codebase (braghettos/krateo-authn)
       and the chart that packages it (braghettos/krateo-authn-chart). Registered on
       the krateo-autopilot orchestrator via the extraAgents hook.
-    digest: 4fb0364a69b2d3952d2bfc64e31853ec3a192558f770d3f2be5d6581c7376a62
+    digest: 391f8a3c85c8d3ffdf1c3258e341edac761f7d179c7277eceab479f423062c54
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -78,9 +78,9 @@ entries:
     version: 0.1.7
   krateo-authn-crd:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.810279+02:00"
+    created: "2026-06-22T13:45:43.813669+02:00"
     description: Krateo PlatformOps AuthN Service CRDs
-    digest: 69c7ec2bc146431af34ae9031f8d7ef67dc38a657bd868eb40c94971b9717233
+    digest: 8742db562aefced4a56286fc24447c160226d872db0f46ee4a6bfe4387118210
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -98,12 +98,12 @@ entries:
   krateo-clickstack-agent:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-06-22T13:40:32.810829+02:00"
+    created: "2026-06-22T13:45:43.814164+02:00"
     description: 'The Krateo observability expert: troubleshoots Krateo/K8s issues
       by querying the ClickStack telemetry backend (ClickHouse+OTel+HyperDX). Grounds
       in braghettos/krateo-clickstack-chart (deployment/CRDs/wiring) and braghettos/krateo-otel-collector
       (internals) at the deployed version.'
-    digest: 42a1572fb55cf0d246b4f9d9066d4ad8be0b5056b7f2df14bc93587cbbef1f5e
+    digest: 1fb877438d4b8d5651181576c3ca52026658368d01403c0c61673188bf647058
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -124,10 +124,10 @@ entries:
   krateo-core-provider-agent:
   - apiVersion: v2
     appVersion: 0.1.8
-    created: "2026-06-22T13:40:32.811285+02:00"
+    created: "2026-06-22T13:45:43.814547+02:00"
     description: 'The Krateo blueprints/composition-engine expert: manages CompositionDefinitions,
       compositions and the marketplace. Knows braghettos/krateo-core-provider + braghettos/krateo-core-provider-chart.'
-    digest: 93244fbc6e1f565b44ad490e49e0812ac63fdc32fa948a215966ed1afaa813b5
+    digest: e9f427c8909a86f40334dc230e8914a0ca6d628e0b44c59d356f6ea21982b608
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -148,9 +148,9 @@ entries:
     version: 0.1.8
   krateo-core-provider-crd:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.81148+02:00"
+    created: "2026-06-22T13:45:43.814866+02:00"
     description: Krateo PlatformOps Core Provider CRDs
-    digest: 56e841e2b1df0b37988af307af7db14032a4fe96887bc67e936c7091cd950bed
+    digest: f1fc29207c8ad9a5f939ce24149ce7b72640da7883cc62adc5762cc48d7738f7
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -167,12 +167,12 @@ entries:
     version: 0.36.7
   krateo-core-provider-target:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.811701+02:00"
+    created: "2026-06-22T13:45:43.815108+02:00"
     description: 'Prerequisites for using a cluster as a Krateo core-provider remote
       deployment target: the composition-version MutatingAdmissionPolicy. Install
       into every cluster referenced by a KubernetesTarget. Requires Kubernetes >=
       1.36. '
-    digest: 7befda3e4fbf48fe3287473e78dc5a0666f5914053fa5aa6d4dd4efaefac84fa
+    digest: 9dde15406cfbd984c6e68753c58ee4531dee80e9e03f08cadcf674112a558100
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -190,11 +190,11 @@ entries:
   krateo-frontend-agent:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2026-06-22T13:40:32.81194+02:00"
+    created: "2026-06-22T13:45:43.815382+02:00"
     description: 'The Krateo frontend expert: authors Composable Portal widget CRDs
       (Table, Page, Button, NavMenu, Route, Panel, ...) and knows the SPA. Knows braghettos/krateo-frontend
       + braghettos/krateo-frontend-chart.'
-    digest: 3d8691eda002571ed72b529445ef2eb47f8652b73d908b9d119d887c9f1385b4
+    digest: c2979b50634b8a3f8add096c8bfdc51a5255305ffc8b9de6443086c330d5bf41
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -214,9 +214,9 @@ entries:
     version: 0.1.6
   krateo-frontend-crd:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.812517+02:00"
+    created: "2026-06-22T13:45:43.816075+02:00"
     description: Krateo PlatformOps Frontend CRDs
-    digest: d61a2dc062e0d5adde913a13420229f9accb509325334020c97fdb1c0b4ebad9
+    digest: 55080ea6a68f313b86511372ceb9215ad18ec8444074ced93ead6cf0038f3ad1
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -234,13 +234,13 @@ entries:
   krateo-installer-agent:
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2026-06-22T13:40:32.812969+02:00"
+    created: "2026-06-22T13:45:43.817171+02:00"
     description: Federated specialist agent for the Krateo PlatformOps installer.
       A kagent Agent that installs, configures and evolves the platform by editing
       the Installer CR, registered on the krateo-autopilot orchestrator via the extraAgents
       hook (the single entry point). Packaged as a Krateo composition; published to
       oci://ghcr.io/braghettos/krateo/krateo-installer-agent.
-    digest: dd16ed39ae7fb632519fd1f6b50c235e2558cc263deaf1fb0b63be01bcbf141e
+    digest: 015a15a2346992d4e9f30ae6c983ab21a2127b033d417aabedc31b8878a0504e
     home: https://krateo.io
     name: krateo-installer-agent
     sources:
@@ -251,9 +251,9 @@ entries:
     version: 0.1.12
   krateo-oasgen-provider-crd:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.813137+02:00"
+    created: "2026-06-22T13:45:43.817612+02:00"
     description: Krateo PlatformOps OasGen Provider CRDs
-    digest: 24b3ee501a3f0684caac36927b1e8508395e536b69108e1e126abfd055bd6e8c
+    digest: 690c0f9366889393e01f7e79304660bb8d3f12ba7ea0ce6f820efe006a658120
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -271,14 +271,14 @@ entries:
   krateo-snowplow-agent:
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2026-06-22T13:40:32.813358+02:00"
+    created: "2026-06-22T13:45:43.817905+02:00"
     description: 'Federated specialist agent for the Krateo snowplow component — the
       expert on snowplow''s full role: it implements RESTActions (the CRD) AND is
       the portal content/composition API that populates widgets at runtime when a
       client (frontend SPA or curl) reads /call?resource=. Knows the snowplow codebase
       (braghettos/krateo-snowplow) + its chart (braghettos/krateo-snowplow-chart).
       Registered on krateo-autopilot via the extraAgents hook.'
-    digest: a581f4fd771c8de95a8afad2094a8818eaa0373cf4f6b0b7b96011ddc45dfc8a
+    digest: a64d4086bc1e936be865c118280f28b0b5a37c877e1e399c8cbf10842122c7ef
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -297,9 +297,9 @@ entries:
     version: 0.1.7
   krateo-snowplow-crd:
   - apiVersion: v2
-    created: "2026-06-22T13:40:32.813498+02:00"
+    created: "2026-06-22T13:45:43.818083+02:00"
     description: Krateo PlatformOps Snowplow CRDs
-    digest: 4997f15fadaf3eb22ecf181254eecc08f5585ad3ba0f6733411d112bcdc9bf3c
+    digest: 14b90a8f9fffd5b67ae8893db58fdefbdecc27e4949679fc65487389c2835d2d
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -317,10 +317,10 @@ entries:
   krateo-sse-proxy:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:40:32.813858+02:00"
+    created: "2026-06-22T13:45:43.819034+02:00"
     description: Krateo SSE proxy. Polls ClickHouse and pushes new K8s events to connected
       browsers via Server-Sent Events.
-    digest: 686dd17d1789059f23b119be9ad6c19dcebc2f66d3b77872e4b8dc88ef330a36
+    digest: ee688a17eefe88bab4c69b852188f74f7ad98172205c96b6f8280fba6aa0b4b5
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -339,7 +339,7 @@ entries:
   nutanix-v4-proxy:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2026-06-22T13:40:32.814266+02:00"
+    created: "2026-06-22T13:45:43.819528+02:00"
     description: 'Translating proxy that lets the Krateo rest-dynamic-controller (KOG)
       drive the Nutanix Prism Central v4 API: OData $filter quoting, $objectType discriminator
       injection, NTNX-Request-Id, async task resolution, ETag / parent If-Match, and
@@ -364,7 +364,7 @@ entries:
   otel-collector-daemonset:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-06-22T13:40:32.820129+02:00"
+    created: "2026-06-22T13:45:43.827479+02:00"
     dependencies:
     - name: opentelemetry-collector
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
@@ -391,7 +391,7 @@ entries:
   otel-collector-deployment:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-06-22T13:40:32.824096+02:00"
+    created: "2026-06-22T13:45:43.834148+02:00"
     dependencies:
     - name: opentelemetry-collector
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
@@ -416,4 +416,4 @@ entries:
     urls:
     - https://braghettos.github.io/charts/operators/otel-collector-deployment-0.2.1.tgz
     version: 0.2.1
-generated: "2026-06-22T13:40:32.786811+02:00"
+generated: "2026-06-22T13:45:43.797148+02:00"
